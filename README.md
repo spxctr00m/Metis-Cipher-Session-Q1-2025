@@ -1,46 +1,62 @@
-# Metis-Cipher-Session-Q1-2025
+# GitHub Contribution Guide For Metis Cipher Session Q1 2025
 Here you'll find the Github and Smart Contract activities of the students who joined the B&lt;>rder/ess &lt;> Metis Cipher Session in January 2025
 
-## Instructions On How To Set Up Repository On Your Computer
+---
+
+## Step-by-Step Contribution Guide
+
+Welcome to our 3-month training program! In this guide, you'll learn how to contribute your weekly projects to the training repository. Follow these steps carefully to ensure your projects are properly added.
 
 ### 1. Clone the Repository
-Clone the Metis-Cipher-Session-Q1-2025 repository to your local machine:
+Start by cloning the Metis-Cipher-Session-Q1-2025 repository to your local machine:
 
 ```bash
 git clone https://github.com/B-rder-ess-Dev-Hub/Metis-Cipher-Session-Q1-2025.git
 cd Metis-Cipher-Session-Q1-2025
 ```
 
-### 2. Create a Branch
-Create a new branch for your solution. Name the branch using your first name and a brief description of your solution (e.g., `john-todo-list-solution`):
+### 2. Navigate to the Weekly Project Folder
+Each week has a designated project folder inside the repository. Navigate to the folder for the current week (e.g., `week-1-projects`, `week-2-projects`):
 
 ```bash
-git checkout -b <your_branch_name>
+cd week-<week_number>-projects
 ```
 
 Example:
 ```bash
-git checkout -b john-todo-projects
+cd week-1-projects
 ```
 
-### 3. Add Your Files
-Add your solution files to the project folder. Make sure your files are well-organized and include necessary documentation or comments explaining your implementation.
+### 3. Create Your Folder
+Inside the weekly folder, create a new folder named after your first name or a unique identifier (e.g., `john`, `jane-doe`):
 
-### 4. Commit Your Changes
-After adding your files, commit your changes with a descriptive message:
+```bash
+mkdir <your_name>
+```
+
+Example:
+```bash
+mkdir john
+```
+
+### 4. Add Your Project Files
+Place all the files related to your project (code, documentation, assets, etc.) into your folder. Ensure your files are organized and well-documented.
+
+### 5. Commit Your Changes
+Stage and commit your changes with a clear and descriptive commit message:
 
 ```bash
 git add .
-git commit -m "Create branch for <your_name>"
+git commit -m "Add Week <week_number> project for <your_name>"
 ```
 
 Example:
 ```bash
-git commit -m "Create branch for John Doe"
+git commit -m "Add Week 1 project for John Doe"
 ```
 
-### 5. Push Your Branch
-Push your branch to the remote repository:
+### 6. Push Your Changes
+Push your changes to the remote repository. If you're on a new branch, use the branch name matching your changes (e.g., `week-1-john-project`):
 
 ```bash
 git push origin <your_branch_name>
@@ -48,17 +64,28 @@ git push origin <your_branch_name>
 
 Example:
 ```bash
-git push origin john-todo-list-solution
+git push origin week-1-john-project
 ```
 
-### 6. Create a Pull Request
-Go to the GitHub repository in your browser. Create a pull request (PR) from your branch to the main branch. In the PR description, provide a brief overview of your solution and any unique features or considerations.
+### 7. Create a Pull Request
+1. Go to the GitHub repository in your browser.
+2. Click on the **Pull Requests** tab.
+3. Create a new pull request from your branch to the main branch.
+4. Provide a descriptive title and include details about your project in the description.
+
+Example PR Title:
+```
+Add Week 1 Project for John Doe
+```
+
+### 8. Wait for Review
+The repository maintainers will review your pull request. Address any feedback promptly and resubmit if needed.
 
 ---
 
-## Notes
-- Ensure your project compiles and passes all relevant tests before submitting.
-- Keep your folders organized and include clear documentation to help others understand your work.
-- Reach out to the workshop facilitator if you encounter any issues or need assistance.
+## Additional Notes
+- Ensure your project is complete, well-documented, and functional before submitting.
+- Follow the repository's coding and folder structure guidelines.
+- If you encounter any issues, contact your training facilitator for help.
 
-Happy coding!
+Thank you for contributing to our training repository! Happy coding!
