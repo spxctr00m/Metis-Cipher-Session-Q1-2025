@@ -15,7 +15,7 @@ Blockchain technology is often believed to be solely about cryptocurrency and tr
 9. **Education**: Blockcerts allows secure issuance and verification of academic credentials, fighting certificate fraud.  
 10. **Entertainment**: Audius ensures fair royalty distribution to artists, protecting intellectual property rights.
 
-#### Blockchain technology adds value to these industries by creating Trust, Security, Innovation and Efficiency. 
+#### Blockchain technology adds value to industries by offering a decentralized, transparent, and secure system, making it an innovative and scalable solution. 
 
 ---
 
@@ -39,3 +39,5 @@ Blockchain technology is often believed to be solely about cryptocurrency and tr
    - Gas fees paid and timestamp.
 
 ---
+
+
