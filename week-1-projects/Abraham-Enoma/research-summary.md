@@ -43,7 +43,7 @@ Blockchain technology is often believed to be solely about cryptocurrency and tr
 ## Part Three - Highlighting the importance of decentralization and how blockchain technology ensures transparency and security. 
 
 ### **1. Importance of Decentralization**
-Decentralization is crucial because it removes the need for a central authority, reducing the risk of fraud, censorship, and single points of failure while fostering trust among participants. By doing these it ensures: 
+Decentralization is crucial because it removes the need for a central authority, reducing the risk of fraud, censorship, and single points of failure while fostering trust among participants. It ensures: 
 - **Resilience**: No single point of failure, making the system more robust.  
 - **Censorship Resistance**: Transactions cannot be blocked or altered by central authorities.  
 - **Trustless Interactions**: Users don’t need to rely on intermediaries to validate actions.
