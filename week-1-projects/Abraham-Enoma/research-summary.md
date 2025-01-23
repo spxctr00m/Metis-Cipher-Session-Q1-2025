@@ -29,3 +29,13 @@ Blockchain technology is often believed to be solely about cryptocurrency and tr
 - **Native Token**: Ether (ETH) is used for transactions and to pay gas fees.  
 - **Ledger**: Immutable and distributed, ensuring transaction data remains secure and verifiable.  
 - **Gas Fees**: Costs associated with computation and data storage on the blockchain.
+
+### To explore Ethereum transactions, I used [Etherscan](https://etherscan.io). Here’s how to track a transaction:
+1. Input the transaction hash, wallet address, or token ID into the search bar.  
+2. View the transaction details, which include:
+   - Sender and recipient wallet addresses.  
+   - The amount of Ether transferred.  
+   - Transaction status (Success, Pending, or Failed).  
+   - Gas fees paid and timestamp.
+
+---
