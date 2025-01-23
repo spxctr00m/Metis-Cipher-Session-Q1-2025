@@ -1,8 +1,8 @@
 <h1>Aboutme</h1>
-<p><h2><strong>Name</strong></h2>: Victory Oluwaseun Johnson</p>
+<p><h2><strong>Name</strong></h2>Victory Oluwaseun Johnson</p>
 
 <h2><strong>Introduction</strong></h2>
-<p>Hi, I'm Victory, just starting out in software development with passion and interest in building innovative and user friendly application. Though i'm new in this field, but with my passion to learn and basic knowledge of programming languages like javascript and python, i believe i will do great.<?p> 
+<p>Hi, I'm just starting out in software development with passion and interest in building innovative and user friendly application. Though i'm new in this field, but with my passion to learn and basic knowledge of programming languages like javascript and python, i believe i will do great.</p> 
 
 <h2><strong>Expectation</strong></h2>
 <p>I joined this course to learn software development and to connect with like minds so as to learn from their expertise</p>
