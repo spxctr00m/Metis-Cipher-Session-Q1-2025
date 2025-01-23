@@ -7,7 +7,7 @@
 1. **Finance (Cryptocurrencies)**: Enables fast, borderless transactions without needing banks. Example:       Bitcoin.  
    **Value**: Reduces fees and delays in international payments.  
 
-2. **Healthcare (Patient Records)**: Blockchain securely stores and shares medical records.  
+2. **Healthcare (Patient Records)** : Blockchain securely stores and shares medical records.  
    **Value**: Improves privacy and accuracy while allowing access only to authorized parties.  
 
 3. **Supply Chain**: Tracks products from production to delivery. Example: IBM Food Trust.  
