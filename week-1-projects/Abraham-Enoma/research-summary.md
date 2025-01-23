@@ -70,6 +70,10 @@ Layer 2 solutions enhance scalability by processing transactions off-chain. Exam
 - **Metis**: Uses optimistic rollups to batch transactions, reducing fees and increasing speed.  
 - **Polygon**: Combines Proof of Stake with Plasma technology to enable faster and cheaper transactions.
 
+### **3. Setting Up MetaMask with Metis network**
+Setting up MetaMask with the Metis network involves: 
+
+
 ---
 
 ## Conclusion
