@@ -23,3 +23,5 @@ In these industries, blockchain offers:
 - **Security**: Cryptographic methods protect against tampering and fraud.  
 - **Efficiency**: Automation through smart contracts reduces manual effort and costs.  
 - **Decentralization**: Eliminates reliance on intermediaries, promoting trustless systems.
+
+---
