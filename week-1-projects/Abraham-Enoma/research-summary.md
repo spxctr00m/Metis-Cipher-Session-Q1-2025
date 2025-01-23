@@ -56,4 +56,16 @@ Blockchain achieves transparency and security through:
 
 ---
 
+## Part Four: Bitcoin vs Ethereum and Layer 2 Solutions
 
+### **1. Bitcoin vs Ethereum**
+While both Bitcoin and Ethereum are leading blockchain networks, they serve different purposes:
+- **Bitcoin**: Designed as a digital currency and store of value.  
+- **Ethereum**: Focuses on enabling decentralized applications (dApps) through smart contracts.  
+- **Supply**: Bitcoin has a capped supply of 21 million coins, while Ethereum has no fixed limit.  
+- **Consensus**: Bitcoin uses Proof of Work (PoW), while Ethereum has shifted to Proof of Stake (PoS).
+
+### **2. Layer 2 Solutions**
+Layer 2 solutions enhance scalability by processing transactions off-chain. Examples include:
+- **Metis**: Uses optimistic rollups to batch transactions, reducing fees and increasing speed.  
+- **Polygon**: Combines Proof of Stake with Plasma technology to enable faster and cheaper transactions.
