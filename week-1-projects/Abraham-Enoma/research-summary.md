@@ -68,11 +68,7 @@ While both Bitcoin and Ethereum are leading blockchain networks, they serve diff
 ### **2. Layer 2 Solutions**
 Layer 2 solutions enhance scalability by processing transactions off-chain. Examples include:
 - **Metis**: Uses optimistic rollups to batch transactions, reducing fees and increasing speed.  
-- **Polygon**: Combines Proof of Stake with Plasma technology to enable faster and cheaper transactions.
-
-### **3. Setting Up MetaMask with Metis network**
-Setting up MetaMask with the Metis network involves: 
-
+- **Polygon**: Combines Proof of Stake with Plasma technology to enable faster and cheaper transactions. 
 
 ---
 
