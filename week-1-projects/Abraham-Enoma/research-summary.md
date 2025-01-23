@@ -15,10 +15,7 @@ Blockchain technology is often believed to be solely about cryptocurrency and tr
 9. **Education**: Blockcerts allows secure issuance and verification of academic credentials, fighting certificate fraud.  
 10. **Entertainment**: Audius ensures fair royalty distribution to artists, protecting intellectual property rights.
 
-### How Blockchain Adds Value
-
-In these industries, blockchain offers:
-
+#### Blockchain adds value In these industries by offering
 - **Transparency**: Real-time visibility into transactions and data.  
 - **Security**: Cryptographic methods protect against tampering and fraud.  
 - **Efficiency**: Automation through smart contracts reduces manual effort and costs.  
