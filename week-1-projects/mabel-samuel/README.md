@@ -47,6 +47,58 @@ Blockchain can address issues like content piracy, intellectual property protect
 
 ### Components of a Blockchain
 
+1. **Nodes:** They are computers or servers connected to the network, each holding a copy of the distributed ledger and validating transactions and blocks. Nodes enforce blockchain protocol rules and maintain system integrity and security.
+Types of nodes include:
+    - Full Nodes:
+    Full Nodes are the backbone of a Blockchain, storing the entire ledger’s history. They validate all blocks and transactions, ensuring network security and integrity. Full nodes independently verify transactions without relying on other nodes’ trustworthiness.
+
+    - Light Nodes (or Light Clients):
+    Light nodes store only block headers, verifying transactions without the full Blockchain. This makes them ideal for devices with limited storage, like mobile phones or personal computers. 
+
+    - Archival Nodes: 
+    Similar to full nodes, they store all historical Blockchain states since inception. Archival nodes enable querying historical data, supporting complex analysis, and retrospective audits.
+
+2. **Distributed Ledger:** is part of the key logical components of a blockchain ecosystem. It is essentially a ledger spread across all nodes in the network. It’s a shared database replicated and synchronized among all peers. Its most notable feature is decentralization. Updating the ledger requires each node to process the transaction and agree on the ledger’s accuracy.
+
+3. **Cryptographic Hashing:** Hash functions are used to secure data, create block identifiers, and maintain data integrity. Ethereum uses Keccak-256 (a variant of SHA-3) to generate cryptographic hashes for transactions, blocks, and accounts.
+
+4. **Consensus Mechanism:** A method to agree on the validity of transactions and block creation across the network. Ethereum initially used *Proof of Work (PoW)*. In PoW, Miners solved computational puzzles to validate transactions and create new blocks. Ethereum eventually transitioned to *Proof of Stake (PoS)* with Ethereum 2.0 (The Merge). In PoS, Validators stake ETH to propose and validate blocks, improving energy efficiency and scalability.
+
+5. **Ethereum Virtual Machine (EVM):** A decentralized runtime environment for executing smart contracts. It processes instructions and manages the states of digital smart contracts, ensuring contract terms are enforced.
+
+6. **Smart Contracts:** Self-executing contracts with the terms of the agreement directly written into code. Smart contracts are written in programming languages like Solidity. Deployed on the Ethereum Virtual Machine (EVM), these contracts execute automatically when predefined conditions are met.
+
+7. **Blocks:** Data structures containing transaction data, metadata, and links to previous blocks.
+Each block includes:
+    - Block Header: Contains metadata like the block hash, parent hash, and timestamp.
+    - Transactions: List of transactions included in the block.
+    - State Root: Represents the Merkle root of the global state.
+    - Gas Used: Tracks computational resources consumed.
+
+8. **Gas and Fees:** The cost of computational resources required to process transactions or execute smart contracts. Transactions and contract executions require gas, denominated in gwei (a fraction of ETH). The base fee is determined dynamically for each block, and users can include tips for faster processing.
+
+9. **Wallets:** Interfaces that allow users to interact with the blockchain, send/receive funds, and interact with smart contracts. Examples: MetaMask, MyEtherWallet.
+Wallets generate private-public key pairs, enabling users to sign transactions securely.
+
+10. **Accounts:** Entities that can send transactions and hold assets. 
+    - *Externally Owned Accounts (EOAs)*: Controlled by private keys, used by individuals.
+    - *Contract Accounts*: Controlled by smart contract code, executing predefined logic.
+
+11. **Decentralized Applications (DApps):** Applications built on the blockchain using smart contracts.
+Examples: DeFi platforms (Uniswap, Aave), NFT marketplaces (OpenSea), and DAOs (Decentralized Autonomous Organizations).
+
+12. **Blockchain State:** The collective record of all accounts, balances, and smart contract states at a given time.
+In ethereum, the state is stored in the form of a *Merkle Patricia Trie*, which optimizes data retrieval and ensures data integrity.
+
+13. **Tokens:** Digital assets created and managed on the blockchain.
+    - ERC-20 Tokens: Fungible tokens like USDT or DAI.
+    - ERC-721 Tokens: Non-fungible tokens (NFTs).
+    - ERC-1155 Tokens: Multi-token standard supporting fungible and non-fungible tokens.
+
+14. **Block Explorer:** Tools that allow users to view blockchain data.
+Example: Etherscan provides details about transactions, blocks, and accounts.
+
+
 ### How to track a transaction on the blockchain
 
 1. **Choose a Blockchain Explorer:** Select a trusted blockchain explorer, such as [etherscan](etherscan.io), to ensure secure and accurate information.
