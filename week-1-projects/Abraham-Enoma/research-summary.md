@@ -18,3 +18,14 @@ Blockchain technology is often believed to be solely about cryptocurrency and tr
 #### Blockchain technology adds value to these industries by creating Trust, Security, Innovation and Efficiency. 
 
 ---
+
+## Ethereum Blockchain Components 
+
+### To ensure that the standard values created by the blockchain system remain stable, they are built on the following components; 
+
+- **Nodes**: Computers connected to the network, storing and validating transactions.  
+- **Consensus Mechanism**: Ethereum uses Proof of Stake (PoS) to validate transactions efficiently.  
+- **Smart Contracts**: Self-executing programs that automate agreements based on predefined conditions.  
+- **Native Token**: Ether (ETH) is used for transactions and to pay gas fees.  
+- **Ledger**: Immutable and distributed, ensuring transaction data remains secure and verifiable.  
+- **Gas Fees**: Costs associated with computation and data storage on the blockchain.
