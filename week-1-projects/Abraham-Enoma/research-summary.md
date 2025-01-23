@@ -48,4 +48,12 @@ Decentralization is crucial because it removes the need for a central authority,
 - **Censorship Resistance**: Transactions cannot be blocked or altered by central authorities.  
 - **Trustless Interactions**: Users don’t need to rely on intermediaries to validate actions.
 
+### **2. Transparency and Security in Blockchain**
+Blockchain achieves transparency and security through:
+- **Public Ledgers**: All transactions are recorded and viewable by anyone.  
+- **Encryption**: Cryptography ensures that transaction data is tamper-proof.  
+- **Consensus Mechanisms**: These secure the network by validating transactions in a decentralized manner.
+
+---
+
 
