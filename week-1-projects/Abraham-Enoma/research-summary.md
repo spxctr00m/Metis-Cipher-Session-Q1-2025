@@ -144,7 +144,17 @@ Layer 2 solutions are secondary protocols or technologies built on top of a bloc
 ---
 
 ### Examples of Layer 2 Solutions
-- **Metis**: Uses optimistic rollups to batch transactions, reducing fees and increasing speed.  
-- **Polygon**: Combines Proof of Stake with Plasma technology to enable faster and cheaper transactions.
+1. **Metis** - a Layer 2 solution built on Ethereum using **Optimistic Rollups** technology.
+   - **How It Works**:
+     - Metis bundles multiple transactions into a single batch and processes them off-chain.
+     - Only the final state is submitted to the Ethereum blockchain, which drastically reduces gas fees and transaction times.
+     - It supports decentralised applications (DApps) and provides additional features like governance, storage, and community tools.
+
+2. **zkSync** - a Layer 2 scaling solution for Ethereum that uses **ZK-Rollups** (Zero-Knowledge Rollups) to increase transaction throughput while maintaining security and decentralization.  
+  -**How It Works**:  
+   - zkSync processes transactions off-chain, then submits compressed proofs to Ethereum's mainnet, validating the transactions using cryptographic proofs (Zero-Knowledge proofs).
+   - Unlike Optimistic Rollups, zkSync doesn't assume transactions are valid; instead, it uses mathematical proofs to validate them instantly.
+   - This approach significantly reduces transaction fees and improves throughput without compromising the security of the Ethereum blockchain.
+   - zkSync is used for high-speed, low-cost transactions in DeFi, NFTs, and general-purpose dApps.
 
 ---
