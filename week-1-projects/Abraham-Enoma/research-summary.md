@@ -21,14 +21,39 @@ Blockchain technology is often believed to be solely about cryptocurrency and tr
 
 ## Part Two - Ethereum Blockchain Components 
 
-### To ensure that the standard values created by the blockchain system remain stable, they are built on the following components; 
+### To ensure stability in the Ethereum Blockchain System, the following components are necessary; 
 
-- **Nodes**: Computers connected to the network, storing and validating transactions.  
-- **Consensus Mechanism**: Ethereum uses Proof of Stake (PoS) to validate transactions efficiently.  
-- **Smart Contracts**: Self-executing programs that automate agreements based on predefined conditions.  
-- **Native Token**: Ether (ETH) is used for transactions and to pay gas fees.  
-- **Ledger**: Immutable and distributed, ensuring transaction data remains secure and verifiable.  
-- **Gas Fees**: Costs associated with computation and data storage on the blockchain.
+
+1. **Consensus Mechanism**
+   - Transitioned from Proof of Work (PoW) to Proof of Stake (PoS) with Ethereum 2.0.
+   - PoS requires validators to stake Ether (ETH) as collateral, with penalties for misbehavior.
+
+2. **Smart Contracts**
+   - Self-executing code stored on the blockchain.
+   - Operate deterministically, ensuring consistent behavior across all nodes.
+
+3. **Decentralization**
+   - Thousands of nodes validate and maintain the blockchain, ensuring resistance to tampering.
+
+4. **Ethereum Virtual Machine (EVM)**
+   - Executes smart contracts in a secure and isolated environment.
+   - Ensures deterministic behavior across all nodes.
+
+5. **Gas Mechanism**
+   - Gas fees prevent abuse and incentivize efficient contract execution.
+   - Acts as a cost for computational resources.
+
+6. **Cryptographic Security**
+   - Employs cryptographic algorithms like Elliptic Curve Digital Signature Algorithm (ECDSA).
+   - Secures transactions and verifies identities.
+
+7. **Upgradability and Governance**
+   - Evolves through Ethereum Improvement Proposals (EIPs) and community consensus.
+   - Addresses scalability, security, and other challenges over time.
+
+8. **Tokenomics**
+   - Mechanisms like burning transaction fees (EIP-1559) and staking rewards influence value and circulation.
+   - Monetary policy controls inflation and maintains trust.
 
 ### To explore Ethereum transactions, I used [Etherscan](https://etherscan.io). Here’s how to track a transaction:
 1. Input the transaction hash, wallet address, or token ID into the search bar.  
