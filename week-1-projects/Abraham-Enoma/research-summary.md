@@ -152,9 +152,9 @@ Layer 2 solutions are secondary protocols or technologies built on top of a bloc
 
 2. **zkSync** - a Layer 2 scaling solution for Ethereum that uses **ZK-Rollups** (Zero-Knowledge Rollups) to increase transaction throughput while maintaining security and decentralization.  
    - **How It Works**:  
-   - zkSync processes transactions off-chain, then submits compressed proofs to Ethereum's mainnet, validating the transactions using cryptographic proofs (Zero-Knowledge proofs).
-   - Unlike Optimistic Rollups, zkSync doesn't assume transactions are valid; instead, it uses mathematical proofs to validate them instantly.
-   - This approach significantly reduces transaction fees and improves throughput without compromising the security of the Ethereum blockchain.
-   - zkSync is used for high-speed, low-cost transactions in DeFi, NFTs, and general-purpose dApps.
+      - zkSync processes transactions off-chain, then submits compressed proofs to Ethereum's mainnet, validating the transactions using cryptographic proofs (Zero-Knowledge proofs).
+      - Unlike Optimistic Rollups, zkSync doesn't assume transactions are valid; instead, it uses mathematical proofs to validate them instantly.
+      - This approach significantly reduces transaction fees and improves throughput without compromising the security of the Ethereum blockchain.
+      - zkSync is used for high-speed, low-cost transactions in DeFi, NFTs, and general-purpose dApps.
 
 ---
