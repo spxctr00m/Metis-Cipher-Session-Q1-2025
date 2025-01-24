@@ -1,10 +1,10 @@
-<H1>**Week 1 Task**</H1>
+<H1>Week 1 Task</H1>
 
-<p><h2>**Part One**</h2></p>
+<p><h2>Part One</h2></p>
 
 <p>-Find 10 real-world examples of how blockchain is being used in different industries (e.g., finance, healthcare, supply chain, government).<br>-Write a brief explanation of how blockchain adds value in these use cases.</p>
 
-<p><h2>**Answers**</h2></p><br>
+<p><h2>Answers</h2></p><br>
 
 <p><h2>Blockchain technology has many real-world applications in different industries, including:<br> 
 -**Blockchain in Finance:** Blockchain can enable secure and fast transactions, reduce the need for intermediaries, and create contracts. For instance<br> 
