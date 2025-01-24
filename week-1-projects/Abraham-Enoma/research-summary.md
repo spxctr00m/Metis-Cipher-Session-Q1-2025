@@ -109,11 +109,15 @@ Decentralization removes the need for a central authority, ensuring no single en
 ## Part Four: Bitcoin vs Ethereum and Layer 2 Solutions
 
 ### **1. Bitcoin vs Ethereum**
-While both Bitcoin and Ethereum are leading blockchain networks, they serve different purposes:
-- **Bitcoin**: Designed as a digital currency and store of value.  
-- **Ethereum**: Focuses on enabling decentralized applications (dApps) through smart contracts.  
-- **Supply**: Bitcoin has a capped supply of 21 million coins, while Ethereum has no fixed limit.  
-- **Consensus**: Bitcoin uses Proof of Work (PoW), while Ethereum has shifted to Proof of Stake (PoS).
+While both Bitcoin and Ethereum are leading blockchain networks, they serve different purposes the table below highlights their differences in terms of purpose and functionality:
+| **Aspect**            | **Bitcoin**                                                                 | **Ethereum**                                                               |
+|------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| **Purpose**           | A decentralized digital currency for secure value transfer and payments.    | A decentralized platform for executing smart contracts and building dApps.|
+| **Primary Use Case**  | Acts as a store of value and medium of exchange.                            | Enables programmability for DeFi, NFTs, DAOs, and decentralized systems.   |
+| **Functionality**     | Focused on peer-to-peer transactions and maintaining a secure ledger.       | Facilitates complex decentralized applications and programmable transactions.|
+| **Blockchain Focus**  | Prioritizes security and immutability for financial transactions.           | Prioritizes flexibility and scalability for diverse applications.          |
+| **Native Cryptocurrency**| BTC (Bitcoin), primarily used for transactions and as a store of value.  | ETH (Ether), used for transactions, gas fees, and incentivizing computation.|
+| **Consensus Mechanism**| Proof of Work (PoW).                                                       | Proof of Stake (PoS).                                                      |
 
 ### **2. Layer 2 Solutions**
 Layer 2 solutions enhance scalability by processing transactions off-chain. Examples include:
