@@ -36,7 +36,7 @@
 **Health Care** 
  
  10. [MedicalChain](https://medicalchain.com/en/): The first healthcare company using blockchain technology to facilitate the storage and utilization of electronic health records in order to deliver a complete telemedicine experience. They are real practicing doctors in the UK healthcare structure.
- 
+
 ***
 ## Part Two
 ### Components of a blockchain
@@ -75,3 +75,13 @@ Transparency is achieved by utilizing a decentralized ledger where all transacti
 
 The security of blockchain is underpinned by cryptographic hashing, which assigns each block a unique digital fingerprint based on its contents. If any data within a block is altered, the corresponding hash changes, making tampering immediately evident. Furthermore, each block contains the hash of the previous block, linking all blocks together in a chain. This structure means that altering one block would require recalculating the hashes of all subsequent blocks, a computationally prohibitive task in large networks. Decentralization plays a crucial role in security by eliminating a single point of failure. Compromising the blockchain would require gaining control over a majority of the network nodes simultaneously, a feat that is practically unachievable in well-established networks. Transactions are also secured through encryption and digital signatures, with public and private keys ensuring that only the owner of a private key can authorize a transaction. Digital signatures provide proof of transaction validity while maintaining the privacy of sensitive information.
 
+
+## Part Four
+### Differences Between Bitcoin and Ethereum in terms of Purpose and Functionality.
+in terms of purpose, Bitcoin, created in 2009 by an anonymous entity known as Satoshi Nakamoto, was designed primarily as a decentralized digital currency. Its primary goal is to enable peer-to-peer financial transactions without the need for intermediaries such as banks. Bitcoin’s blockchain focuses on securely recording transactions and maintaining a fixed supply of 21 million bitcoins, ensuring scarcity and protecting against inflation. Its relatively simple design makes it ideal for serving as a store of value, often referred to as "digital gold," and as a medium of exchange.
+
+Ethereum, on the other hand, was launched in 2015 by Vitalik Buterin and others as a more versatile blockchain platform. While it also supports cryptocurrency (Ether, or ETH), Ethereum’s primary purpose extends beyond digital payments. It was designed as a decentralized platform for executing smart contracts and building decentralized applications (dApps). Smart contracts are self-executing agreements with the terms directly written into code, enabling complex transactions and processes to occur automatically when certain conditions are met. This functionality has made Ethereum the foundation for various use cases, including decentralized finance (DeFi), non-fungible tokens (NFTs), and supply chain management.
+
+In terms of functionality,  Bitcoin operates on a simpler scripting language tailored to handle transactions, making it highly secure but limited in programmability. In contrast, Ethereum’s Turing-complete programming language, Solidity, allows developers to create a wide range of applications and protocols. Ethereum also differs in its approach to blockchain upgrades and scalability. It has undergone significant changes, such as the shift to Ethereum 2.0, which introduced a Proof of Stake (PoS) consensus mechanism to improve energy efficiency and transaction throughput. Bitcoin, however, remains committed to its original Proof of Work (PoW) model, prioritizing security and decentralization over scalability.
+
+### Layer 2 Solutions and how they improve blockchain scalability
