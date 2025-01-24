@@ -12,24 +12,31 @@
  
  2. Blockchain is being used by a company know as [Guts](https://guts.tickets/) to issue honest tickets that put an end to disgraceful secondary market prices and ticket fraud.
  3.  [Spotify](https://techcrunch.com/2017/04/26/spotify-acquires-blockchain-startup-mediachain-to-solve-musics-attribution-problem/) acquired blockchain startup Mediachain to solve music’s attribution problem via a decentralized database to better connect artists and licensing agreements with the tracks on Spotify’s service.
+
+**Supply Chain** 
  
- **Supply Chain**
- 4.  [IBM Blockchain](https://www.ibm.com/blockchain-supply-chain): Blockchain for supply chains allows transparency with a shared record of ownership and location of parts and products in real time allowing businesses keep track of the status and condition of every product on their supply chain.
- 5. [Provenance](https://www.provenance.org/news-insights/blockchain-the-solution-for-transparency-in-product-supply-chains) uses blockchain to provide chain-of-custody and certification of supply chains allowing consumers to be sure that the sourcing of materials and production of the products they consume adhere to their individual values.
- 6.  [OriginTrail](https://origintrail.io/) - platform that lets consumers know where their purchases came from and how they were produced - does something similar to Provenance
+ 4. [IBM Blockchain](https://www.ibm.com/blockchain-supply-chain): Blockchain for supply chains allows transparency with a shared record of ownership and location of parts and products in real time allowing businesses keep track of the status and condition of every product on their supply chain.
+ 5.  [Provenance](https://www.provenance.org/news-insights/blockchain-the-solution-for-transparency-in-product-supply-chains) uses blockchain to provide chain-of-custody and certification of supply chains allowing consumers to be sure that the sourcing of materials and production of the products they consume adhere to their individual values
+ 6. [OriginTrail](https://origintrail.io/) - platform that lets consumers know where their purchases came from and how they were produced - does something similar to Provenance
 
-**Insurance**
-7. [Proof of insurance](https://www.insurancejournal.com/news/national/2017/12/27/475346.htm): Insurance companies are currently testing a blockchain solution to provide proof-of-insurance information called RiskBlock. Ultimately, when this tool is fully deployed it will help law enforcement, insured and insurers verify insurance coverage in real time and accelerate claims processing.
+  **Insurance** 
+ 
+ 7. [Proof of insurance](https://www.insurancejournal.com/news/national/2017/12/27/475346.htm): Insurance companies are currently testing a blockchain solution to provide proof-of-insurance information called RiskBlock. Ultimately, when this tool is fully deployed it will help law enforcement, insured and insurers verify insurance coverage in real time and accelerate claims processing.
 
-**Real Estate**
-8. [Ubiquity](https://www.ubitquity.io/web/index.html): This Software-as-a-Service (Saas) blockchain platform offers a simpler user experience to securely record property information to ensure a clean record of ownership.
 
-**Charity**
-9. [BitGive](https://www.bitgivefoundation.org/about-us/): This gloabal donation platform leverages Bitcoin and blockchain technology to provide greater transparency to donors by sharing real-time financial and project information.
+**Real Estate** 
+ 
+ 8. [Ubiquity](https://www.ubitquity.io/web/index.html): This Software-as-a-Service (Saas) blockchain platform offers a simpler user experience to securely record property information to ensure a clean record of ownership. 
 
-**Health Care**
-10. [MedicalChain](https://medicalchain.com/en/): The first healthcare company using blockchain technology to facilitate the storage and utilization of electronic health records in order to deliver a complete telemedicine experience. They are real practicing doctors in the UK healthcare structure.
 
+ **Charity** 
+ 
+ 9. [BitGive](https://www.bitgivefoundation.org/about-us/): This gloabal donation platform leverages Bitcoin and blockchain technology to provide greater transparency to donors by sharing real-time financial and project information.
+
+**Health Care** 
+ 
+ 10. [MedicalChain](https://medicalchain.com/en/): The first healthcare company using blockchain technology to facilitate the storage and utilization of electronic health records in order to deliver a complete telemedicine experience. They are real practicing doctors in the UK healthcare structure.
+ 
 ***
 ## Part Two
 ### Components of a blockchain
