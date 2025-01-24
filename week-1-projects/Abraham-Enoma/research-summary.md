@@ -119,14 +119,12 @@ While both Bitcoin and Ethereum are leading blockchain networks, they serve diff
 | **Native Cryptocurrency**| BTC (Bitcoin), primarily used for transactions and as a store of value.  | ETH (Ether), used for transactions, gas fees, and incentivizing computation.|
 | **Consensus Mechanism**| Proof of Work (PoW).                                                       | Proof of Stake (PoS).                                                      |
 
-### **2. How Layer 2 Solutions improve scalability**
-### What Are Layer 2 Solutions?
+### **2. Exploring Layer 2 Solutions**
+#### What Are Layer 2 Solutions?
 
 Layer 2 solutions are secondary protocols or technologies built on top of a blockchain's base layer (Layer 1) to improve its scalability, speed, and efficiency without compromising security or decentralization. These solutions handle transactions off the main blockchain while relying on the underlying Layer 1 for final settlement and security.
 
----
-
-### How Layer 2 Solutions Improve Scalability
+#### How Layer 2 Solutions Improve Scalability
 
 1. **Offloading Transactions**
    - Transactions are processed off-chain on Layer 2 networks, reducing the workload on the main blockchain (Layer 1).
