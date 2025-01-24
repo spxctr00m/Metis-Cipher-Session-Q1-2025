@@ -158,3 +158,7 @@ Layer 2 solutions are secondary protocols or technologies built on top of a bloc
       - zkSync is used for high-speed, low-cost transactions in DeFi, NFTs, and general-purpose dApps.
 
 ---
+
+![Metis](metis.png)
+
+---
