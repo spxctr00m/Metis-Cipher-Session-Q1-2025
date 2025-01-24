@@ -119,13 +119,34 @@ While both Bitcoin and Ethereum are leading blockchain networks, they serve diff
 | **Native Cryptocurrency**| BTC (Bitcoin), primarily used for transactions and as a store of value.  | ETH (Ether), used for transactions, gas fees, and incentivizing computation.|
 | **Consensus Mechanism**| Proof of Work (PoW).                                                       | Proof of Stake (PoS).                                                      |
 
-### **2. Layer 2 Solutions**
-Layer 2 solutions enhance scalability by processing transactions off-chain. Examples include:
+### **2. How Layer 2 Solutions improve scalability**
+### What Are Layer 2 Solutions?
+
+Layer 2 solutions are secondary protocols or technologies built on top of a blockchain's base layer (Layer 1) to improve its scalability, speed, and efficiency without compromising security or decentralization. These solutions handle transactions off the main blockchain while relying on the underlying Layer 1 for final settlement and security.
+
+---
+
+### How Layer 2 Solutions Improve Scalability
+
+1. **Offloading Transactions**
+   - Transactions are processed off-chain on Layer 2 networks, reducing the workload on the main blockchain (Layer 1).
+
+2. **Increased Throughput**
+   - By handling multiple transactions off-chain and batching them for final settlement, Layer 2 significantly increases the number of transactions the system can process.
+
+3. **Lower Transaction Fees**
+   - With reduced congestion on the main blockchain, transaction fees decrease as demand for block space lowers.
+
+4. **Faster Transactions**
+   - Layer 2 networks confirm transactions almost instantly, eliminating delays caused by Layer 1 congestion.
+
+5. **Maintaining Security**
+   - Layer 2 solutions inherit the security and decentralization of the Layer 1 blockchain, ensuring trustworthiness and resilience.
+
+---
+
+### Examples of Layer 2 Solutions
 - **Metis**: Uses optimistic rollups to batch transactions, reducing fees and increasing speed.  
 - **Polygon**: Combines Proof of Stake with Plasma technology to enable faster and cheaper transactions.
 
 ---
-
-## Conclusion
-
-This research gave me insights into how blockchain technology is solving real-world problems, from finance to supply chains. It also deepened my understanding of Ethereum’s structure, the importance of decentralization, and how Layer 2 solutions like Metis address scalability challenges. Finally, setting up MetaMask with the Metis network was a practical step in understanding blockchain integration.  
