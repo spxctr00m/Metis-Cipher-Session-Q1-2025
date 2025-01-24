@@ -9,18 +9,15 @@ Welcome to Week 0 of our training program! This week, we focused on learning Git
 ### 1. Create Your "About Me" File
 Your task is to create a file in the `week-0` folder with the following details:
 
-1. **File Name**: Use your full name for the file name (e.g., `john-doe.md`).
-2. **Content**: In the file, include:
-   - A short introduction about yourself (e.g., background, hobbies, etc.).
-   - Your expectations for joining the program.
-   - Your experience in the program so far (even if it’s just Week 0).
+**File Name**: Use your full name for the file name (e.g., `john-doe.md`).
 
-### 2. Save Your File
-Make sure to save your file as a Markdown file (`.md`). Markdown is a simple and readable format for text files.
+**Content**: In the file, include:
+- A short introduction about yourself (e.g., background, hobbies, etc.).
+- Your expectations for joining the program.
+- Your experience in the program so far (even if it’s just Week 0).
 
-Example:
-
-```
+#### Example:
+```markdown
 # About Me
 
 **Name**: John Doe
@@ -34,6 +31,9 @@ I joined this program to enhance my skills in Web3 development and collaborate w
 ## Experience So Far
 So far, the program has been exciting. Learning GitHub in Week 0 has been a great start, and I'm looking forward to the weeks ahead.
 ```
+
+### 2. Save Your File
+Make sure to save your file as a Markdown file (`.md`). Markdown is a simple and readable format for text files.
 
 ---
 
@@ -55,7 +55,7 @@ cd week-0
 ```
 
 ### 3. Add Your File
-Create your `about-me` file in this folder and ensure it is named properly.
+Create your "about-me" file in this folder and ensure it is named properly.
 
 ### 4. Commit Your Changes
 Stage and commit your file with a descriptive commit message:
@@ -65,7 +65,7 @@ git add .
 git commit -m "Add About Me file for <your_name>"
 ```
 
-Example:
+#### Example:
 ```bash
 git commit -m "Add About Me file for John Doe"
 ```
@@ -77,7 +77,7 @@ Push your changes to the remote repository:
 git push origin <your_branch_name>
 ```
 
-Example:
+#### Example:
 ```bash
 git push origin week-0-john-about-me
 ```
@@ -88,18 +88,17 @@ git push origin week-0-john-about-me
 3. Create a new pull request from your branch to the main branch.
 4. Add a title and description for your pull request.
 
-Example PR Title:
+#### Example PR Title:
 ```
 Add About Me file for John Doe
 ```
-
-### 7. Wait for Review
-Your file will be reviewed by the maintainers. Address any feedback promptly and resubmit if needed.
 
 ---
 
 ## Notes
 - Ensure your file is well-written and properly formatted.
 - Reach out to your facilitator if you have questions or encounter any issues.
+
+---
 
 Thank you for participating in Week 0, and happy coding!
