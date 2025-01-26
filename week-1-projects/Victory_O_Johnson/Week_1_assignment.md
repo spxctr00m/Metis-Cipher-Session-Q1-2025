@@ -1,23 +1,89 @@
-<H1>Week 1 Task</H1>
+# **Week 1 Task**
 
-<p><h2>Part One</h2></p>
+##  Part One
 
 <p>-Find 10 real-world examples of how blockchain is being used in different industries (e.g., finance, healthcare, supply chain, government).<br>-Write a brief explanation of how blockchain adds value in these use cases.</p>
 
-<p><h2>Answers</h2></p><br>
+## **Answers**
 
-<p><h2>Blockchain technology has many real-world applications in different industries, including:<br> 
--**Blockchain in Finance:** Blockchain can enable secure and fast transactions, reduce the need for intermediaries, and create contracts. For instance<br> 
---JPMorgan Chase’s Onyx** located in New york, develops product and solution that leverages on blockchain for real time settlement of interbanks transaction<br>
---Cash App’s fintech platform** is using blockchain for peer to peer payment and bitcoin transactions<br>
---Block’s financial services and digital payment processing solutions are enabling small businesses to process credit card securely.</h2></p><br>
+## Blockchain technology has many real-world applications in different industries, including: 
+1. **Blockchain in Finance:** Blockchain can enable secure and fast transactions, reduce the need for intermediaries, and create contracts. For instance
+- JPMorgan Chase’s Onyx** located in New york, develops product and solution that leverages on blockchain for real time settlement of interbanks transaction
+- Cash App’s fintech platform** is using blockchain for peer to peer payment and bitcoin transactions<br>
+- Block’s financial services and digital payment processing solutions are enabling small businesses to process credit card securely.
 
-<p><h2>**Healthcare:** Blockchain can enable secure sharing of patient data, improve privacy and accuracy, and improve healthcare efficiency<br>
--Novo Nordisk is utilizing blockchain technology in clinical trials to collect and secure patient’s data
--Avenir Health is building a decentralized network for secure collaboration and data sharing  in health care administration
--Medibloc’s platform is storing and managing medical records on a blockchain ensuring security and integrity</h2></p>
+2. **Healthcare:** Blockchain can enable secure sharing of patient data, improve privacy and accuracy, and improve healthcare efficiency<br>
+- Novo Nordisk is utilizing blockchain technology in clinical trials to collect and secure patient’s data
+- Avenir Health is building a decentralized network for secure collaboration and data sharing  in health care administration
+- Medibloc’s platform is storing and managing medical records on a blockchain ensuring security and integrity</h2></p>
 
-<p><h2>**Supply chain management:** Blockchain can increase transparency and tracking, ensure the authenticity of products, and automate traceability<br> 
--Oracle’s intelligent track and trace application is using blockchain for multi-tier visibility across supply chain systems<br>
--Maersk’s blockchain solution is streamlining  marine insurance<br> 
--Provenance project is providing a blockchain-based provenance record of transparency within supply chains</h2></p>
+3. **Supply chain management:** Blockchain can increase transparency and tracking, ensure the authenticity of products, and automate traceability<br> 
+- Oracle’s intelligent track and trace application is using blockchain for multi-tier visibility across supply chain systems<br>
+- Maersk’s blockchain solution is streamlining  marine insurance<br> 
+- Provenance project is providing a blockchain-based provenance record of transparency within supply chains
+
+3. **Supply chain management:** Blockchain can increase transparency and tracking, ensure the authenticity of products, and automate traceability<br> 
+- Oracle’s intelligent track and trace application is using blockchain for multi-tier visibility across supply chain systems
+- Maersk’s blockchain solution is streamlining  marine insurance 
+- Provenance project is providing a blockchain-based provenance record of transparency within supply chains
+
+4. **Government:** Blockchain can streamline services like voting and public records, and issue unique IDs 
+- Kaleido’s blockchain-based solution are been used for risk reduction and auditing in government sector
+- Follow my Vote’s secure online voting platform is utilizing Blockchain technology
+- Voatz’s mobile voting platform is running on blockchain technology, ensuring secure and transparent voting process
+
+5. **Media and Entertainment:** Blockchain can be used for royalty payments and digital rights management
+- OpenSea’s NFT marketplace is allowing uses buy, sell and create digital assets securely
+Madhives blockchain bases advertising and data solution is providing transparency  and security for digital marketers
+
+6. **Charity:** 
+- Bitgive services aims to provide greater transparency to charity donations and clearer links between giving and project outcomes. It is working with established charities including save the children, the water project ans medic mobile
+
+7. **Energy and oil & gas:** Blockchain can enable efficient and transparent energy trading 
+Power ledger blockchain based platform enable households to trade excess energy with their neighbours thereby increasing energy efficiency, reduced energy cost and enhances community engagement
+- LO3 Energy’s blockchain based platform, smart grid management platform manages energy distribution and consumption in real time enhancing grid resilience, improved energy efficiency and reduced energy waste. This is very much needed in Nigeria due to countless national grid failure in 2024
+
+8. **Transport and Tourism:** Blockchain can be used for cooler incentives 
+- Arcade City, An application which aims to beat Uber at their own game by moving ride sharing and car hiring onto the blockchain
+- La’Zooz, a community -owned platform for synchronizing empty seats with passengers in need of a seat in real-time
+
+9. **Real estate:** Blockchain can be used for record keeping
+- Ubiquity, this startup is creating a blockchain driven system for tracking the complicated legal process which create fiction and expense in real estate transfer 
+
+10. **Retail:**
+- OpenBazaar is an attempt to build decentralized market where goods and services can be traded with no middle man
+- Blockpoint.io, this allows retailers to build payment system around blockchain currencies such as Bitcoin, as well as blockchain derived gift cards and loyalty schemes
+
+## **Part Two**
+1. Identify and list the components of a blockchain by analyzing how Ethereum works.
+2. Explore a public blockchain explorer (e.g., ethers.com) and explain how to track a transaction on the blockchain.
+
+## **Answer:**
+## How Ethereum Network works
+Individuals (users) initiate transactions such as sending ether (ETH - a cryptocurrency used to pay for transactions and computational services in ethereum network) or execute a smart contract, a self executing contract with rules written in code. The nodes i.e computers that run ethereum software  and connect them to the network on the network receives the transactions.<br>
+Afterwards,the miners - a group of individuals verifies it by using powerful computer to validates the transaction on the ethereum network by ensuring it solves a complex mathematical puzzle, execute smart contract and create a new block before the verified transactions is grouped into the block<br>
+Thereafter, the validated block is then added to the blockchain which is linked to others with an hash- a unique string of characters that represents a piece of data which could be a file, message or a transaction on the blockchain. After which the nodes on the network then updates the copy of the blockchain.
+
+The component of blockchain as regards to ethereum are:
+- Network
+- Transaction eg Ether
+- Blocks on the blockachain
+- Smartcontract
+
+Others includes:
+Consensus mechanism, Cryptography etc
+
+## Exploring Ether.com and explaining how to track transactions ##
+
+Etherscan.io an explorer used to track the transactions of ethereum on a blockchain has lots of 
+futures such as
+- Number of transactions on the block
+- Latest block created and the latest transaction on the block
+- The miners
+- Transaction wallet ids for both the receiver and the sender
+- Means of Transaction, Either Transfer or otherwise
+- The gas fee involved, the time and status of the transaction
+- The Transaction Hash etc
+
+Clicking on the one of the blocks, one can see detailed info of all transaction on the block, 
+including the block height, the status of the block- finalized or not,time created, Transactions withdrawals etc as seen below:
