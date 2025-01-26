@@ -87,3 +87,21 @@ futures such as
 
 Clicking on the one of the blocks, one can see detailed info of all transaction on the block, 
 including the block height, the status of the block- finalized or not,time created, Transactions withdrawals etc as seen below:
+![etherscan block overview 1](https://github.com/user-attachments/assets/a0deaf6d-56ed-4573-a4e5-60292c7fac28)
+![etherscan block overview 2](https://github.com/user-attachments/assets/b13396a6-20f1-4ad2-9cea-ca355472831a)
+![Etherscan blocks](https://github.com/user-attachments/assets/29011932-3049-418a-9856-861bf5b01076)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
