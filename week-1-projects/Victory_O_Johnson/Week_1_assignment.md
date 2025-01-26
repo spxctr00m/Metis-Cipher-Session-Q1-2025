@@ -39,8 +39,8 @@ Madhives blockchain bases advertising and data solution is providing transparenc
 6. **Charity:** 
 - Bitgive services aims to provide greater transparency to charity donations and clearer links between giving and project outcomes. It is working with established charities including save the children, the water project ans medic mobile
 
-7. **Energy and oil & gas:** Blockchain can enable efficient and transparent energy trading 
-Power ledger blockchain based platform enable households to trade excess energy with their neighbours thereby increasing energy efficiency, reduced energy cost and enhances community engagement
+7. **Energy and oil & gas:** Blockchain can enable efficient and transparent energy trading: 
+- Power ledger blockchain based platform enable households to trade excess energy with their neighbours thereby increasing energy efficiency, reduced energy cost and enhances community engagement
 - LO3 Energy’s blockchain based platform, smart grid management platform manages energy distribution and consumption in real time enhancing grid resilience, improved energy efficiency and reduced energy waste. This is very much needed in Nigeria due to countless national grid failure in 2024
 
 8. **Transport and Tourism:** Blockchain can be used for cooler incentives 
