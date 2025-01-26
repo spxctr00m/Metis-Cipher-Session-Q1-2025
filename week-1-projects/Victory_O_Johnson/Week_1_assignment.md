@@ -119,7 +119,7 @@ Bitcoin is used for peer to peer transaction,and focuses on digital currency and
 
 ## Layer 2 solutions nad how they improve blockchain scalability
 Layer 2 solutions are technologies that improve the scalability of blockchain by processing transaction off-chain that is outside the main blockchain thereby increasing the capacity of transaction and reducing congestion. it also groups multiple transaction together before sending it to the main blockchain reducing the number of transaction on the main blockchain. This is called batch processing
-Example of this sollutions include:
+Example of this solutions include:
 - oprimism
 - Polygon
 - Metis Network
@@ -132,7 +132,8 @@ This is also a layer 2 solution for ethereum network that is fast, secure and en
 This below is a metamask wallet set with the metis network added:
 ![mmwal](https://github.com/user-attachments/assets/42dbb40f-bff5-4fbe-8831-538b1b0dfd89)
 ![Mainnet add](https://github.com/user-attachments/assets/6e165130-9aa8-49a8-8ca7-e0397b80e06c)
-Procederes
+
+## Procedures
 * search https://metemask.io from your browser(chrome)
 * download the extension and add to chrome
 * create a new wallet or import one
