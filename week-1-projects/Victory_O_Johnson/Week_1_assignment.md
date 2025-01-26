@@ -107,7 +107,7 @@ consensus mechanism - protocol thats used to ensures that all nodes in the netwo
   
 For Security, Blockchain uses cryptography technology, which means securing data and converting into codes to prevent unauthorized access, decentralized networks of nodes makes it difficult for a single entity to manipulate the blockchain. Also for security purposes the blocks are connected to one another using a Hash function which is used to create a unique fingerprint for each block before connecting it to another. This makes it difficult to manipulate the blockchain
 
-# Part Four
+## Part Four
 1. Research and explain the differences between Bitcoin and Ethereum in terms of purpose and functionality.
    
 ## Answer
@@ -117,10 +117,6 @@ Bitcoin as a digital currency aims at replacing traditional fiat currency such a
 ## Functionality
 Bitcoin is used for peer to peer transaction,and focuses on digital currency and store of value while ethereum enables decentralized applications (DApps)and decentralized finance(DeFi), it also support various uses cases such as NFTs, gaming and social media
 
-2. Explore Layer 2 solutions and summarize how they improve blockchain scalability, write down 2 examples of different layer 2 solutions including Metis and explain how they work.
-
-
-Set up a MetaMask wallet on your browser and add the Metis network to it. Attach a screenshot of the wallet with the Metis network added in your submission.
 
 
 
