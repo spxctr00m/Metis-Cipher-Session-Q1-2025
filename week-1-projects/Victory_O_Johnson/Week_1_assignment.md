@@ -117,8 +117,33 @@ Bitcoin as a digital currency aims at replacing traditional fiat currency such a
 ## Functionality
 Bitcoin is used for peer to peer transaction,and focuses on digital currency and store of value while ethereum enables decentralized applications (DApps)and decentralized finance(DeFi), it also support various uses cases such as NFTs, gaming and social media
 
-
-
+## Layer 2 solutions nad how they improve blockchain scalability
+Layer 2 solutions are technologies that improve the scalability of blockchain by processing transaction off-chain that is outside the main blockchain thereby increasing the capacity of transaction and reducing congestion. it also groups multiple transaction together before sending it to the main blockchain reducing the number of transaction on the main blockchain. This is called batch processing
+Example of this sollutions include:
+- oprimism
+- Polygon
+- Metis Network
+- Arbitrum
+  
+## Metis Network
+Metis network is a sca;lable layer 2 solution that enables fast, secure and low cost transactions on ethereum blockchain, making it suitable for large scale application.Its decentralized abd allows seemless imteraction between differnt ecosystem on the blockchain, promoting interoperability and colabolations with the blaockchain. These attribute helps increase the adoption of layer 2 soltions
+## Arbitrum
+This is also a layer 2 solution for ethereum network that is fast, secure and enables low cost transactions. it uses optimistic roll up technologhy to bundle multiple transactions into a sigle transaction to be processed on the ethereum mainet. Its key features like Metis are: Scalabilty, security, low cost transactions, and interoperability.
+This below is a metamask wallet set with the metis network added:
+![mmwal](https://github.com/user-attachments/assets/42dbb40f-bff5-4fbe-8831-538b1b0dfd89)
+![Mainnet add](https://github.com/user-attachments/assets/6e165130-9aa8-49a8-8ca7-e0397b80e06c)
+Procederes
+* search https://metemask.io from your browser(chrome)
+* download the extension and add to chrome
+* create a new wallet or import one
+* if creating a new one, secure your seed phrase, manually is advised orhewise puy in yor seed phrase to import your metamask wallet
+* on the metamask home page, at the top left, click on the drop down arrow displaying etereum network
+* Then scroll down and click on add wallet, there input the details of The network to be added, such as
+- Network name: Metis Adromeda Mainnet
+- Rpc URL: https://andromedametis.io
+- Chain ID: 1088
+- Currency symbol: METIS
+- Block Explorer URL: Andromeda-Explorer.metis.io
 
 
 
