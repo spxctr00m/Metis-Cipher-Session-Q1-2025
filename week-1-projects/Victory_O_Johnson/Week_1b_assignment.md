@@ -54,21 +54,11 @@
   anyone to make a transaction without a central authority or middle man
   - **Open source:** EVM allows developers to view and modify code of contract. hence its an open
    source. This promotes transparency, collaboration and community involvement
-  - **Node distibution:** EVM is run by several nodes networked together, ensuring ethereum Network 
-  remains decentralized and resilient to single point failure. That is the failure of one node
-  doesnt affect the efficiency of the smart contract execution
-  - **Authonomous execution:** EVM enables automatic execution of smart contract when a condtion is 
-  met without relaying on intermediaries or any central autority
+  - **Node distibution:** EVM is run by several nodes networked together, ensuring ethereum Network remains decentralized and resilient to single point failure. That is the failure of one node doesnt affect the efficiency of the smart contract execution
+  - **Authonomous execution:** EVM enables automatic execution of smart contract when a condtion is met without relaying on intermediaries or any central autority
 
-3. **Why is the EVM Important?**
+ **Why is the EVM Important?**
    - Highlight why the EVM is a foundational component of Ethereum and its ecosystem.
    - Mention its compatibility with other blockchains that support EVM.
 
-for more details you can read from the below listed article:
-   https://ethereum.org
-
-### Write about Merkle Patricia Trees in the EVM
-In .md, include a short note about the Merkle Patricia Tree:
-
-1. Explain how Merkle Patricia Trees are used in the EVM.
-2. Highlight their role in organizing and securing data on the Ethereum blockchain.
+for more details you can read from the below listed article: https://ethereum.org
