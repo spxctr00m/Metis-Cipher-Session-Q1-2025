@@ -1,7 +1,8 @@
-**What is the EVM?**<br>
+**What is the EVM?**
+   - Provide a simple and clear explanation of the EVM.
 
-   EVM(Ethereum Viartual Machine) is a coputer whose storage is in the cloud that is connected to several computers operated by users-web developers. The EVM is basically used to process smart contract transactions. The EVM oinly understands binary codes i.e 0's and 1's which is difficult for human, This led to web developers creating a high level language called solidity which is used to write smart contracts which are codes in english language. This codes is then compiled by an opcode which serves as a interpreter between the two -User langauge(solidity) and the machine language(bytecodes), thus helping the EVM machine to process the set of instructions written by the users(web developers)
-    
+   EVM(Ethereum Viartual Machine) is a coputer whose storage is in the cloud it's connected to several computers operated by users-web developers. The EVM is basically used to process smart contract transactions. The EVM only understands binary codes i.e 0's and 1's which is difficult for human, This led to web developers creating a high level language called solidity which is used to write smart contracts which are codes in english language. This codes is then compiled by an opcode which serves as a interpreter between the two -User langauge(solidity) and the machine language(bytecodes), thus helping the EVM machine to process the set of instructions written by the users(web developers)</p>
+   
    - Describe its purpose and role in the Ethereum blockchain.
    The purpose of the EVM 
 
