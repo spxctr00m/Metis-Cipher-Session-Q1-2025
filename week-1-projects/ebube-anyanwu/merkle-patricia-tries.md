@@ -52,10 +52,4 @@ Merkle Patricia Trees are integral to several key aspects of Ethereum's state ma
 - The **Merkle Patricia Trie** ensures that any changes to the state are cryptographically secured. By hashing the data and using these hashes to navigate the tree, Ethereum guarantees that data cannot be tampered with without altering the root hash.
 - This structure allows Ethereum nodes to verify data integrity using **Merkle proofs**, which provide a way to prove that a certain piece of data is part of the trie without revealing the entire structure.
 
-### Transition to Verkle Trees
-
-Ethereum plans to transition to a new structure called **Verkle Trees** in the near future. This will further improve the state management by enabling more efficient and flexible cryptographic proofs, and offering potential optimizations for protocol improvements.
-
-### Conclusion
-
-Merkle Patricia Trees are essential for organizing and securing data on the Ethereum blockchain. They enable Ethereum to maintain a decentralized, verifiable, and efficient system for managing the state of the network, from account balances to smart contract storage. Their combination of cryptographic security and efficient data retrieval makes them an ideal choice for Ethereum's state management, providing scalability, integrity, and trustworthiness.
+Link to Article on [Understanding The Ethereum Virtual Machine](https://chiefebube.hashnode.dev/understanding-the-ethereum-virtual-machine-evm)
