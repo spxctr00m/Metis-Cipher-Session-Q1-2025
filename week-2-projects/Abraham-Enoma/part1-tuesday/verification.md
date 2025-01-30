@@ -52,7 +52,6 @@ module.exports = {
 ```bash
 npm install dotenv
 ```
-
   - Create a file named `.env` in your root directory and add the following contents:
 ```
 PRIVATE_KEY=your_private_key
