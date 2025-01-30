@@ -1,8 +1,9 @@
 # Week 1 Tasks - Metis Cipher Session Q1 2025
 
+
 ## **Part One: 10 Real-World Blockchain Use Cases**
 
-Blockchain is a decentralized, secure ledger that records transactions transparently across a network. Its immutability and trustless design eliminate intermediaries, enabling innovation across industries like finance, healthcare, and supply chain. Let’s explore its real-world applications, mechanics, and transformative potential.
+Blockchain is a decentralized, secure ledger that records transactions transparently across a network. Its immutability and trustless design eliminate intermediaries, enabling innovation across industries like finance, healthcare, and supply chain. Let’s explore its real-world applications, mechanics, and transformative potential.	
 
 1. **Supply Chain (IBM Food Trust)** : Blockchain tracks food from farm to store, ensuring authenticity and reducing fraud.
 2. **Healthcare (MedRec)** : Securely shares patient records across providers while maintaining privacy via encryption.
@@ -15,11 +16,12 @@ Blockchain is a decentralized, secure ledger that records transactions transpare
 9. **Charity (GiveTrack)** : Tracks donations transparently to ensure funds reach intended recipients.
 10. **Real Estate (Propy)** : Facilitates cross-border property sales with tamper-proof records.
 
+
 ---
 
 ## **Part Two: Blockchain Components & Transaction Tracking**
 
-**Components of Ethereum Blockchain** :
+ **Components of Ethereum Blockchain** :
 
 1. **Nodes** : Devices that validate/relay transactions (full nodes, light nodes).
 2. **Blocks** : Batches of transactions with timestamps and hashes.
@@ -42,43 +44,43 @@ Blockchain is a decentralized, secure ledger that records transactions transpare
 ## **Part Three: Decentralization, Transparency & Security**
 
 1. **Why Decentralization?**
-   - No single point of control/failure.
-   - Resists censorship (e.g., governments can’t shut it down).
-   - Trustless: Users don’t need to trust a central authority.
+   * No single point of control/failure.
+   * Resists censorship (e.g., governments can’t shut it down).
+   * Trustless: Users don’t need to trust a central authority.
 2. **Transparency & Security** :
 
-- **Transparency** : All transactions are public and auditable on the blockchain.
-- **Security** : Cryptographic hashing (SHA-256) ensures data integrity. Consensus mechanisms (PoS/PoW) prevent malicious actors from altering the chain.
+* **Transparency** : All transactions are public and auditable on the blockchain.
+* **Security** : Cryptographic hashing (SHA-256) ensures data integrity. Consensus mechanisms (PoS/PoW) prevent malicious actors from altering the chain.
 
 ---
 
 ## **Part Four: Bitcoin vs. Ethereum & Layer 2 Solutions**
 
-**Bitcoin vs. Ethereum** :
+ **Bitcoin vs. Ethereum** :
 
-| **Aspect**        | **Bitcoin**                        | **Ethereum**                       |
-| ----------------- | ---------------------------------- | ---------------------------------- |
+| **Aspect**        | **Bitcoin**                  | **Ethereum**                 |
+| ----------------------- | ---------------------------------- | ---------------------------------- |
 | **Purpose**       | Digital gold/store of value        | Platform for dApps/smart contracts |
 | **Consensus**     | Proof of Work (PoW)                | Proof of Stake (PoS)               |
 | **Functionality** | Limited scripting (transfers only) | Turing-complete (complex logic)    |
 
-**Layer 2 Solutions** :
+ **Layer 2 Solutions** :
 
 1. **Metis** :
 
-- **How it works** : Optimistic rollup that bundles transactions off-chain and posts proofs to Ethereum. Focuses on low fees and fast transactions.
-- **Use case** : Decentralized autonomous companies (DACs) and scalable dApps.
+* **How it works** : Optimistic rollup that bundles transactions off-chain and posts proofs to Ethereum. Focuses on low fees and fast transactions.
+* **Use case** : Decentralized autonomous companies (DACs) and scalable dApps.
 
 1. **Optimism** :
 
-- **How it works** : Another optimistic rollup; assumes transactions are valid unless challenged. Reduces gas fees by 10–100x.
+* **How it works** : Another optimistic rollup; assumes transactions are valid unless challenged. Reduces gas fees by 10–100x.
 
-  **MetaMask Setup** :
+ **MetaMask Setup** :
 
 1. Install MetaMask (browser extension).
 2. Click “Add Network” and enter Metis RPC details:
-   - **Network Name** : Metis
-   - **RPC URL** : [https://andromeda.metis.io/?owner=1088](https://andromeda.metis.io/?owner=1088)
-   - **Chain ID** : 1088
-   - **Currency Symbol** : METIS
-   - **Block Explorer** : [https://andromeda-explorer.metis.io](https://andromeda-explorer.metis.io/)
+   * **Network Name** : Metis
+   * **RPC URL** : [https://andromeda.metis.io/?owner=1088](https://andromeda.metis.io/?owner=1088)
+   * **Chain ID** : 1088
+   * **Currency Symbol** : METIS
+   * **Block Explorer** : [https://andromeda-explorer.metis.io](https://andromeda-explorer.metis.io/)
