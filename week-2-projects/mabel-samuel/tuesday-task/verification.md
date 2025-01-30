@@ -7,17 +7,27 @@ To verify smart contracts deployed via hardhat on the metis blockchain, we would
 ## Install Dependencies
 
 Ensure that you have the necessary dependencies installed in your project.
-`npm install --save-dev @nomicfoundation/hardhat-verify`
+
+```
+npm install --save-dev @nomicfoundation/hardhat-verify
+```
 
 ## Configure Hardhat for Metis
 
 And add the following statement to your hardhat.config.js:
-`require("@nomicfoundation/hardhat-verify");`
+
+```
+require("@nomicfoundation/hardhat-verify");
+```
 
 Or, if you are using TypeScript, add this to your hardhat.config.ts:
-`import "@nomicfoundation/hardhat-verify";`
 
-`module.exports = {
+```
+import "@nomicfoundation/hardhat-verify";
+```
+
+```
+module.exports = {
   solidity: "0.8.20",
   networks: {
     metis: {
@@ -41,14 +51,17 @@ Or, if you are using TypeScript, add this to your hardhat.config.ts:
       }
     ]
   }
-};`
+};
+```
 
 ## Set Up Environment Variables
 
 In your `.env` file, store your private key and Metis Explorer API key:
 
-```PRIVATE_KEY=your_private_key_here
-METIS_SCAN_API_KEY=your_metis_scan_api_key_here```
+```
+PRIVATE_KEY=your_private_key_here
+METIS_SCAN_API_KEY=your_metis_scan_api_key_here
+```
 
 You can get an API key from RouteScan by registering.
 
@@ -73,16 +86,20 @@ After deploying, you can verify your contract on Metis’ RouteScan using the fo
 
 1. **Without constructor arguments:**
 
-`npx hardhat verify --network metis <DEPLOYED_CONTRACT_ADDRESS>`
+```
+npx hardhat verify --network metis <DEPLOYED_CONTRACT_ADDRESS>
+```
 
 2. **With constructor arguments (if applicable):**
 
-`npx hardhat verify --network metis <DEPLOYED_CONTRACT_ADDRESS> "constructor_argument1" "constructor_argument2"`
+```
+npx hardhat verify --network metis <DEPLOYED_CONTRACT_ADDRESS> "constructor_argument1" "constructor_argument2"
+```
 
 Make sure to replace `<DEPLOYED_CONTRACT_ADDRESS>` with the actual address of your deployed contract, and provide constructor arguments if your contract requires them.
 
 ## Check Verification Status
 
-Once the verification process is complete, your contract should appear on Metis RouteScan (Andromeda Explorer). You can access it on [Metis Explorer](https://andromeda-explorer.metis.io)
+Once the verification process is complete, your contract should appear on Metis RouteScan (Andromeda Explorer). You can access it on [Metis Explorer](https://andromeda-explorer.metis.io).
 
 Your contract’s source code will now be available for others to inspect and interact with directly from the explorer.
