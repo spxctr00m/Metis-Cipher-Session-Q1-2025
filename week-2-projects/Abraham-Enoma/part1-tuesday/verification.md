@@ -48,7 +48,7 @@ module.exports = {
 
 ```
 ### 4. Configure .env File for Private Key and RPC URL:
-  - Install dotenv: Install the dotenv package to handle environment variables
+  - Install the dotenv package to handle environment variables:
 ```bash
 npm install dotenv
 ```
@@ -61,9 +61,9 @@ RPC_URL=https://sepolia.metisdevops.link
 Replace your_private_key with your wallet's private key and RPC_URL with the RPC endpoint of your chosen network.
 
 ### 5. Ensure the `.env` file is ignored by Git by adding it to your .gitignore file:
-`
+```
 .env
-`
+```
 
 ### 6. Compile and Deploy Your Contract:
  - To compile your contract:
