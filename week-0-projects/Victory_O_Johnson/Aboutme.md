@@ -1,12 +1,13 @@
-<h1>Aboutme</h1>
-<p><h2><strong>Name</strong></h2>Victory Oluwaseun Johnson</p>
+# Aboutme
+## Name:
+Victory Oluwaseun Johnson
 
-<h2><strong>Introduction</strong></h2>
-<p>Hi, I'm just starting out in software development with passion and interest in building innovative and user friendly application. Though i'm new in this field, but with my passion to learn and basic knowledge of programming languages like javascript and python, i believe i will do great.</p> 
+## Introduction<br>
+Hi, I'm just starting out in software development with passion and interest in building innovative and user friendly application. Though i'm new in this field, but with my passion to learn and basic knowledge of programming languages like javascript and python, i believe i will do great. 
 
-<h2><strong>Expectation</strong></h2>
-<p>I joined this course to learn software development and to connect with like minds so as to learn from their expertise</p>
+## Expectation<br>
+I joined this course to learn software development and to connect with like minds so as to learn from their expertise
 
-<h2><strong>Experience so far</strong></h2>
-<p>So far the class has being exciting nad challenging, laerning about github has been a graet start as i've longed to be able to navigate this tool. 
-Though a bit challenging, however it has geared me to the importance of teamwork, research and the winners mindset-never quit</p>
+## Experience so far<br>
+So far, the class has being inspiring and the teachings, impacting. Learning about github is a great start as i've longed to be able to navigate this tool. 
+Though a bit challenging, however it has geared me to the importance of teamwork, research and the winners mindset-never quit
