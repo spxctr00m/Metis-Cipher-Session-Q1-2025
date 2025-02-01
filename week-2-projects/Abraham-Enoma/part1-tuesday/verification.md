@@ -169,5 +169,3 @@ Scroll down to see and interact with the contract code.
 For more details, refer to [Hardat-verify documentation](https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-verify) and the official Metis GitHub: [Metis Hardhat Deployment](https://github.com/metis-edu/Deploy-Smart-Contract-Hardhat) 
 
 ---
-This guide helps ensure your smart contracts are successfully verified on Metis using Hardhat.
-
