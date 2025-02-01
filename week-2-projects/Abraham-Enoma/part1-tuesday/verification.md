@@ -57,7 +57,8 @@ module.exports = {
 },
 etherscan: {
   apiKey: {
-    metisSepolia: "any-non-empty-string", //Metis doesn't require an API key for verication. You can use any non-empty string as a placeholder.
+    metisSepolia: "any-non-empty-string", 
+//Metis doesn't require an API key for verication. You can use any non-empty string as a placeholder.
   },
   customChains: [
     {
