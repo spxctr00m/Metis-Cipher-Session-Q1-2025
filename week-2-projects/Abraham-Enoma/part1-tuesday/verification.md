@@ -43,7 +43,7 @@ require("@nomicfoundation/hardhat-verify");
 require("dotenv").config();
 
  const PRIVATE_KEY = process.env.PRIVATE_KEY;
- const METIS_SEPOLIA_RPC_URL = process.env.METIS_SEPOLIA_RPC_URL;
+ const METIS_SEPOLIA_RPC_URL = process.env.RPC_URL;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
