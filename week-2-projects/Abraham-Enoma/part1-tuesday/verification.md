@@ -35,46 +35,43 @@ npm install --save-dev @nomicfoundation/hardhat-verify
 
 Your basic Hardhat config file (`hardhat.config.js` or `hardhat.config.ts`) will be setup to support the network you are working on. In this example we use the Metis Sepolia test network and a `.js` file. [More info on using typescript with hardhat available here](https://hardhat.org/guides/typescript.html#typescript-support). 
 
-In your `hardhat.config.js` file, add the following:
+In your `hardhat.config.js` file, include the following:
 
-```javascript
-require("@nomicfoundation/hardhat-toolbox");
-require("@nomicfoundation/hardhat-verify");
-require("dotenv").config();
+  ```javascript
+  require("@nomicfoundation/hardhat-toolbox");
+  require("@nomicfoundation/hardhat-verify");
+  require("dotenv").config();
 
- const PRIVATE_KEY = process.env.PRIVATE_KEY;
- const METIS_SEPOLIA_RPC_URL = process.env.RPC_URL;
+  const PRIVATE_KEY = process.env.PRIVATE_KEY;
+  const METIS_SEPOLIA_RPC_URL = process.env.RPC_URL;
 
-/** @type import('hardhat/config').HardhatUserConfig */
-module.exports = {
-  solidity: "0.8.28",
-  networks: {
-    metisSepolia: {
-    url: METIS_SEPOLIA_RPC_URL,
-    accounts: PRIVATE_KEY ? [PRIVATE_KEY] : [],
-    chainId: 59902,
-    },
-},
-etherscan: {
-  apiKey: {
-    metisSepolia: "any-non-empty-string", 
-//Metis doesn't require an API key for verication. You can use any non-empty string as a placeholder.
-  },
-  customChains: [
-    {
-      network: "metisSepolia",
+  module.exports = {
+    solidity: "0.8.28",
+    networks: {
+      metisSepolia: {
+      url: METIS_SEPOLIA_RPC_URL,
+      accounts: PRIVATE_KEY ? [PRIVATE_KEY] : [],
       chainId: 59902,
-      urls: {
-        apiURL: "https://sepolia-explorer-api.metisdevops.link/api",
-        browserURL: "https://sepolia-explorer.metisdevops.link",
       },
+  },
+  etherscan: {
+    apiKey: {
+      metisSepolia: "any-non-empty-string", 
+  //Metis doesn't require an API key for verication. You can use any non-empty string as a placeholder.
     },
-  ],
-      
-}
-};
-
-```
+    customChains: [
+      {
+        network: "metisSepolia",
+        chainId: 59902,
+        urls: {
+          apiURL: "https://sepolia-explorer-api.metisdevops.link/api",
+          browserURL: "https://sepolia-explorer.metisdevops.link",
+        },
+      },
+    ],  
+  }
+  };
+  ```
 ## Configure .env File for your Private Key and RPC URL:
 
   - Install the dotenv package to handle environment variables:
@@ -83,7 +80,7 @@ etherscan: {
 npm install dotenv
 ```
   - Create a file named `.env` in your root directory and add the following contents:
-```
+```bash
 PRIVATE_KEY=your_private_key
 RPC_URL=https://sepolia.metisdevops.link
 ```
@@ -91,7 +88,7 @@ Replace your_private_key with your wallet's private key and RPC_URL with the RPC
 
 ## Ensure the `.env` file is ignored by Git by adding it to your .gitignore file:
 
-```
+```bash
 .env
 ```
 
@@ -153,7 +150,7 @@ Successfully verified contract "contracts/Lock.sol:Lock" for network metisSepoli
 
 ## Confirm Verification on Metis
 
-Go to your [Metis Testnet Explorer](https://sepolia-explorer.metisdevops.link/) and paste the contract address into the search bar.
+Go to your [Metis Block Explorer](https://sepolia-explorer.metisdevops.link/) and paste the contract address into the search bar.
 
 ![Metis Sepolia explorer searchbar](./assets/testnet-1.png)
 
