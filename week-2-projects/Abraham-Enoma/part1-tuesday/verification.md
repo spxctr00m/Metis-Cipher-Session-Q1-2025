@@ -151,8 +151,22 @@ Successfully verified contract "contracts/Lock.sol:Lock" for network metisSepoli
   - https://sepolia-explorer.metisdevops.link/address/0xCE3dc2F748208c4651aC68DFda0b02DF01742a4d#code
 ```
 
+## Confirm Verification on Metis
+
+Go to your [Metis Testnet Explorer](https://sepolia-explorer.metisdevops.link/) and paste the contract address into the search bar.
+
+![Metis Sepolia explorer searchbar](./assets/testnet-1.png)
+
+Scroll down to see verified status. A green checkmark ✅ means the contract is verified.
+
+![Metis testnet explorer showing verified tick](./assets/metis-testnet-explorer.png)
+
+Scroll down to see and interact with the contract code. 
+
+![Contract showing code](./assets/contract-code.png)
+
 ## Reference
-For more details, refer to the official Metis GitHub: [Metis Hardhat Deployment](https://github.com/metis-edu/Deploy-Smart-Contract-Hardhat)
+For more details, refer to [Hardat-verify documentation](https://hardhat.org/hardhat-runner/plugins/nomicfoundation-hardhat-verify) and the official Metis GitHub: [Metis Hardhat Deployment](https://github.com/metis-edu/Deploy-Smart-Contract-Hardhat) 
 
 ---
 This guide helps ensure your smart contracts are successfully verified on Metis using Hardhat.
