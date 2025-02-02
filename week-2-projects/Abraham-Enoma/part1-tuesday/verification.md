@@ -43,13 +43,13 @@ In your `hardhat.config.js` file, include the following:
   require("dotenv").config();
 
   const PRIVATE_KEY = process.env.PRIVATE_KEY;
-  const METIS_SEPOLIA_RPC_URL = process.env.RPC_URL;
+  const RPC_URL = process.env.RPC_URL;
 
   module.exports = {
     solidity: "0.8.28",
     networks: {
       metisSepolia: {
-      url: METIS_SEPOLIA_RPC_URL,
+      url: RPC_URL,
       accounts: PRIVATE_KEY ? [PRIVATE_KEY] : [],
       chainId: 59902,
       },
