@@ -2,13 +2,13 @@
 
 Merkle Patricia Trees are a type of trie data structure used in the Ethereum Virtual Machine (EVM) to efficiently store and manage the state of accounts on the Ethereum blockchain. Here's a simplified explanation of how they work:
 
-**Hashing:** When a new account is created or an existing account is updated, the EVM generates a cryptographic hash of the account's data. This hash is used as a key to store the data in the Merkle Patricia Tree.
+1. **Hashing:** When a new account is created or an existing account is updated, the EVM generates a cryptographic hash of the account's data. This hash is used as a key to store the data in the Merkle Patricia Tree.
 
-**Node Insertion:** The hash is inserted into the tree as a new node. The tree is structured such that each node has a set of child nodes, each representing a hash value.
+2. **Node Insertion:** The hash is inserted into the tree as a new node. The tree is structured such that each node has a set of child nodes, each representing a hash value.
 
-**Path Compression:** When a node is inserted, the tree is traversed to find the shortest path between the root node and the new node. This path is compressed into a single hash value, which is used to update the tree.
+3. **Path Compression:** When a node is inserted, the tree is traversed to find the shortest path between the root node and the new node. This path is compressed into a single hash value, which is used to update the tree.
 
-**Merkle Proof:** When a transaction is executed, the EVM generates a Merkle proof, which is a set of hash values that prove the existence of a particular piece of data in the tree. This proof is used to verify the transaction and ensure the integrity of the blockchain
+4. **Merkle Proof:** When a transaction is executed, the EVM generates a Merkle proof, which is a set of hash values that prove the existence of a particular piece of data in the tree. This proof is used to verify the transaction and ensure the integrity of the blockchain
 
 
 ## Role in Organizing and Securing Data
