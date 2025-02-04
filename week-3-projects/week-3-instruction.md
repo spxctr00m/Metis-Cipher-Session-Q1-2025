@@ -53,12 +53,14 @@ Your task is to write a Solidity smart contract that calculates the area of a tr
    - Create a folder named after your name (e.g., `john-doe`).
    - Create a subfolder for Tuesday's task and add all your folders and files to this folder.
      Hint: Your .md file and Hardhat project folder should be inside "Tuesday" folder. See the illustration below.
+     <br><br>
+  
 
    ```plaintext
    week-3-projects
     ├── Folder-With-Your-Name
     │   └── smartcontract        <-- Your hardhat folder
-    │   └── notes.md       <-- Readme file with your contract address and note
+    │   └── notes.md             <-- Readme file with your contract address and note
    ```
 
 ---
