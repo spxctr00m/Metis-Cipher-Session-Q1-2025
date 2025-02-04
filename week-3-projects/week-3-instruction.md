@@ -32,7 +32,7 @@ Your task is to write a Solidity smart contract that calculates the area of a tr
 ## Submission Guidelines
 
 - Create a new folder named after your full name inside the `week-3-projects` folder of the repository.
-- Your folder should include two subfolders: `tuesday-task` and `friday-task`, summarizing your work and answers.
+- Your folder should include two subfolders: `tuesday-task` and `friday-task`.
 - Include all your work in this first folder. Ensure that your submission is organized and well-documented.
 - Add a `README.md` file in your folder with:
   - Your verified contract address.
@@ -60,7 +60,7 @@ Your task is to write a Solidity smart contract that calculates the area of a tr
    week-3-projects
     ├── Folder-With-Your-Name
     │   └── smartcontract        <-- Your hardhat folder
-    │   └── notes.md             <-- Readme file with your contract address and note
+    │   └── ReadMe.md             <-- Readme file with your contract address and note
    ```
 
 ---
