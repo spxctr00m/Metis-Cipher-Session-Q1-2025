@@ -57,7 +57,8 @@ In your `hardhat.config.js` file, include the following:
   etherscan: {
     apiKey: {
       metisSepolia: "any-non-empty-string", 
-  //Metis doesn't require an API key for verication. You can use any non-empty string as a placeholder.
+  /*Metis doesn't require an API key for verication. 
+You can use any non-empty string as a placeholder.*/
     },
     customChains: [
       {
