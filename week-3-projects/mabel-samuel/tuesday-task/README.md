@@ -2,12 +2,14 @@
 
 ## Verified Contract Address
 
+contract address = 
+
 ## Difference Between `=`, `==`, and `===` in Solidity
 
 - `=`: 
     This is a simple assignment operator used to assign the value on the right to the variable on the left. 
     
-    E.g 
+    E.g, 
 
     ```
     uint256 balance = 300;
