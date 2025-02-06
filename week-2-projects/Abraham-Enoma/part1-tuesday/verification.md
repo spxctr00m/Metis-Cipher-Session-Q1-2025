@@ -57,7 +57,8 @@ In your `hardhat.config.js` file, include the following:
   etherscan: {
     apiKey: {
       metisSepolia: "any-non-empty-string", 
-  //Metis doesn't require an API key for verication. You can use any non-empty string as a placeholder.
+  /*Metis doesn't require an API key for verication. 
+You can use any non-empty string as a placeholder.*/
     },
     customChains: [
       {
@@ -101,9 +102,8 @@ Replace your_private_key with your wallet's private key and RPC_URL with the RPC
  - To deploy your contract run:
 
 ```bash
-npx hardhat run scripts/deploy.js --network metisSepolia --deployment-id metis-sepolia-deployment
+npx hardhat ignition deploy ignition/modules/Lock.js --network metisSepolia
 ```
-`The --deployment-id flag is optional, but it allows you to give a custom name to your deployment. This makes it easier when you want to verify it.`
 
 #### Example Output:
 
@@ -126,10 +126,10 @@ LockModule#Lock - 0xCE3dc2F748208c4651aC68DFda0b02DF01742a4d
 
 
 ## Verify Your Contract
-To verify the deployed contract, you can run the ignition verify task and pass the deployment Id::
+To verify the deployed contract, run:
 
 ```bash
-  npx hardhat ignition verify metis-sepolia-deployment
+  npx hardhat ignition verify <DEPLOYED CONTRACT ADDRESS>
 ```
 
 Alternatively, you can combine deployment and verification into one step, by invoking the deploy task with the --verify flag:
