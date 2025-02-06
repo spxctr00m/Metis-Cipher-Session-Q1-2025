@@ -8,9 +8,11 @@ This week, your task is to write a Solidity smart contract that calculates the a
 ## Instructions for Week 3 Project
 
 ### Part 1: Write a Solidity Contract for Area Calculations
+
 Your task is to write a Solidity smart contract that calculates the area of a triangle, rectangle, and square.
 
 1. **Create a Solidity contract (`AreaCalculator.sol`)** that includes:
+
    - A function to calculate the area of a **triangle**: `(base * height) / 2`
    - A function to calculate the area of a **rectangle**: `length * breadth`
    - A function to calculate the area of a **square**: `side * side`
@@ -18,11 +20,9 @@ Your task is to write a Solidity smart contract that calculates the area of a tr
 2. **Deploy the Contract Using Hardhat**
    - Set up your Hardhat environment.
    - Deploy your contract to the Metis testnet.
-   
 3. **Verify the Contract**
    - Verify your contract on the Metis blockchain.
    - Document the verified contract address.
-   
 4. **Create a README file**
    - Add the documented verified contract address.
    - Write a short note on the difference between `=`, `==`, and `===` in Solidity.
@@ -32,7 +32,7 @@ Your task is to write a Solidity smart contract that calculates the area of a tr
 ## Submission Guidelines
 
 - Create a new folder named after your full name inside the `week-3-projects` folder of the repository.
-- Your folder should include two subfolders: `tuesday-task` and `friday-task`, summarizing your work and answers.
+- Your folder should include two subfolders: `tuesday-task` and `friday-task`.
 - Include all your work in this first folder. Ensure that your submission is organized and well-documented.
 - Add a `README.md` file in your folder with:
   - Your verified contract address.
@@ -41,36 +41,50 @@ Your task is to write a Solidity smart contract that calculates the area of a tr
 ---
 
 ## How to Contribute Your Work
+
 1. **Navigate to the Week 3 Folder**:
+
    ```bash
    cd week-3-projects
    ```
 
 2. **Add Your Files**:
+
    - Create a folder named after your name (e.g., `john-doe`).
    - Create a subfolder for Tuesday's task and add all your folders and files to this folder.
-   Hint: Your .md file and Hardhat project folder should be inside "Tuesday" folder. See the illustration below.
-   
+     Hint: Your .md file and Hardhat project folder should be inside "Tuesday" folder. See the illustration below.
+     <br><br>
+  
+
+   ```plaintext
    week-3-projects
     ├── Folder-With-Your-Name
     │   └── smartcontract        <-- Your hardhat folder
-    │   └── notes.md       <-- Readme file with your contract address and note
+    │   └── ReadMe.md             <-- Readme file with your contract address and note
+   ```
+
+---
 
 3. **Commit Your Changes**:
    ```bash
    git add .
    git commit -m "Add Week 3 project for <your_name>"
    ```
-   Example:
-   ```bash
-   git commit -m "Add Week 3 project for John Doe"
-   ```
+
+Example:
+
+```bash
+git commit -m "Add Week 3 project for John Doe"
+```
 
 4. **Push Your Changes**:
+
    ```bash
    git push origin <your_branch_name>
    ```
+
    Example:
+
    ```bash
    git push origin main
    ```
