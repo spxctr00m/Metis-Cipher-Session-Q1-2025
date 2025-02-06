@@ -1,2 +1,21 @@
 ## Verified contract address: 0x142b81F49bF28383416709859a03Efe698e395b2
-![image](https://github.com/user-attachments/assets/2a7746c1-0671-42ae-945b-0b48cac9c558)
+![image](https://github.com/user-attachments/assets/48784e81-580c-41f1-b3ea-0d31ec9f070b)
+
+# Difference Between =, ==, and === in Solidity
+
+In Solidity:
+
+- **`=` (Assignment Operator)**: Used to assign values to variables. Example:
+  ```solidity
+  uint x = 10;
+  ```
+
+- **`==` (Equality Operator)**: Compares two values for equality and returns `true` if they are the same. Example:
+  ```solidity
+  bool isEqual = (x == 10); // true
+  ```
+
+- **`===` (Strict Equality Operator)**: Unlike JavaScript, Solidity **does not** have `===`. It only uses `==` for comparisons.
+
+So, in Solidity, `=` is for assignment, and `==` is for checking equality.
+
