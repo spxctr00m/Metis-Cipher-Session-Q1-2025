@@ -11,7 +11,7 @@ Here is a step-by-step guide to follow
 If you haven't already, install the **hardhat-verify** plugin in your project:
 
 ```bash
-npm install --save-dev @nomiclabs/hardhat-verify
+npm install --save-dev @nomicfoundation/hardhat-verify
 ```
 
 ### 2. Configure Hardhat
@@ -22,36 +22,36 @@ Modify your **hardhat.config.js** file:
 
 ```javascript
 require("@nomicfoundation/hardhat-toolbox");
-require("@nomiclabs/hardhat-verify");
+require("@nomicfoundation/hardhat-verify");
 require("dotenv").config();
 
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 const METIS_SEPOLIA_RPC_URL = process.env.METIS_SEPOLIA_RPC_URL;
 
 module.exports = {
-  solidity: "0.8.28",
-  networks: {
-    metisSepolia: {
-      url: METIS_SEPOLIA_RPC_URL,
-      accounts: PRIVATE_KEY ? [PRIVATE_KEY] : [],
-      chainId: 59902,
-    },
-  },
-  etherscan: {
-    apiKey: {
-      metisSepolia: "any-non-empty-string",
-    },
-    customChains: [
-      {
-        network: "metisSepolia",
-        chainId: 59902,
-        urls: {
-          apiURL: "https://sepolia-explorer-api.metisdevops.link/api",
-          browserURL: "https://sepolia-explorer.metisdevops.link",
+    solidity: "0.8.28",
+    networks: {
+        metisSepolia: {
+            url: METIS_SEPOLIA_RPC_URL,
+            accounts: PRIVATE_KEY ? [PRIVATE_KEY] : [],
+            chainId: 59902,
         },
-      },
-    ],
-  },
+    },
+    etherscan: {
+        apiKey: {
+            metisSepolia: "any-non-empty-string",
+        },
+        customChains: [
+            {
+                network: "metisSepolia",
+                chainId: 59902,
+                urls: {
+                    apiURL: "https://sepolia-explorer-api.metisdevops.link/api",
+                    browserURL: "https://sepolia-explorer.metisdevops.link",
+                },
+            },
+        ],
+    },
 };
 ```
 
@@ -77,7 +77,7 @@ const config: HardhatUserConfig = {
     },
   },
   networks: {
-    "metis-sepolia": {
+    "metisSepolia": {
       url: "https://sepolia.metisdevops.link/",
     },
     andromeda: {
@@ -86,8 +86,7 @@ const config: HardhatUserConfig = {
   },
   etherscan: {
     apiKey: {
-      "metis-sepolia": "apiKey is not required, just set a placeholder",
-      "metis-goerli": "apiKey is not required, just set a placeholder",
+      metisSepolia: "apiKey is not required, just set a placeholder",
       andromeda: "apiKey is not required, just set a placeholder",
     },
     customChains: [
@@ -101,7 +100,7 @@ const config: HardhatUserConfig = {
         },
       },
       {
-        network: "metis-sepolia",
+        network: "metisSepolia",
         chainId: 59902,
         urls: {
           apiURL: "https://sepolia-explorer-api.metisdevops.link/api",
