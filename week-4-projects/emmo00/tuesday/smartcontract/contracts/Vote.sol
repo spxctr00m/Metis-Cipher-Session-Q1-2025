@@ -239,10 +239,14 @@ contract Vote {
                 winnerIndex = i;
             }
         }
-
-        elections[electionIndex].winner = elections[electionIndex].contestants[
-            winnerIndex
-        ];
+        
+        elections[electionIndex].winner = Contestant(
+            elections[electionIndex].contestants[winnerIndex].name,
+            elections[electionIndex].contestants[winnerIndex].age,
+            elections[electionIndex].contestants[winnerIndex].party,
+            elections[electionIndex].contestants[winnerIndex].manifesto,
+            elections[electionIndex].contestants[winnerIndex].votes
+        );
     }
 
     function getWinner(
