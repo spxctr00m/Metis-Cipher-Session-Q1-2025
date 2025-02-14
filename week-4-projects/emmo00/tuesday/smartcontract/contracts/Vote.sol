@@ -157,7 +157,6 @@ contract Vote {
         newContestant.manifesto = _manifesto;
         newContestant.votes = 0;
 
-        elections[electionIndex].contestants.push(newContestant);
         emit ContestantRegistered(electionIndex, newContestant.name, newContestant.party, newContestant.manifesto);
 
         return newContestant;
