@@ -10,7 +10,7 @@ Here is the verified [voting contract address](https://sepolia-explorer.metisdev
 
 Overflow and Underflow are common issues in programming generally, including solidity that arise when the result of an arithmetic operation exceeds the maximum or minimum value that can be represented by the data type leading to serious consequences like  unexpected behavior or vulnerabilities in smart contracts.
 
-1. **Overflow**
+### Overflow
 
 Overflow occurs when the result of an arithmetic operation exceeds the maximum value that can be represented by the data type. In Solidity, integers are represented using fixed-size data types like `uint256` (unsigned integer with 256 bits) or `int256` (signed integer with 256 bits). If the result of an addition, multiplication, or any other arithmetic operation exceeds the maximum value that can be stored in the data type, an overflow occurs.
 
@@ -27,7 +27,7 @@ If you execute the code above the "balance" will be 0. This is a simple example 
 
 Now when you store 256 in a uint8 variable, it will overflow and the value will become 0, if you store 257 it will become 1, for 258 it will become 2, and so on. In simple terms when an integer overflow occurs, the value of the integer variable will be reset to the minimum value that can be stored in that variable plus the exceeded value.
 
-2. **Underflow**
+### Underflow
 
 Underflow occurs when the result of an arithmetic operation goes below the minimum value that can be represented by the data type. This typically happens with subtraction or division operations.
 
@@ -52,7 +52,7 @@ contract RolloverExample {
 
 This is where Libraries like SafeMath were invented.
 
-**Solidity 0.8 Difference**
+### Solidity 0.8 Difference
 
 In Solidity 0.8, the compiler will automatically take care of checking for overflows and underflows. 
 
