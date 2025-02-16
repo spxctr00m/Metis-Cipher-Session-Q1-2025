@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.28;
 
+/// @title Voting System Smart Contract
+/// @author spxctr00m - github.com/spxctr00m
+
 contract VotingSystem {
     address public i_owner;
     mapping(address => bool) public admins;
