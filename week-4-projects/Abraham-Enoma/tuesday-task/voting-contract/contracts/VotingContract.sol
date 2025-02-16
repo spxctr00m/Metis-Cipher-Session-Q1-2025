@@ -200,17 +200,51 @@ contract VotingSystem {
         require(candidateList.length > 0, "No candidates registered yet!");
         require(candidates[_candidate].isRegistered, "Candidate not found!");
 
+        // Allow admins and the owner to vote without registration
+        if (!admins[msg.sender] && msg.sender != i_owner) {
+            require(
+                voters[msg.sender].isRegistered,
+                "You must be registered to vote!"
+            );
+        }
+
+        // Count the vote
         candidates[_candidate].voteCount++;
 
+        // Update vote count in the candidate list array
         for (uint256 i = 0; i < candidateList.length; i++) {
             if (candidateList[i].candidateAddress == _candidate) {
                 candidateList[i].voteCount++;
-                voters[msg.sender].hasVoted = true;
+                voters[msg.sender].hasVoted = true; // Mark voter as having voted
 
                 emit Voted(msg.sender, _candidate, candidateList[i].name);
                 break;
             }
         }
+    }
+
+    function getLeadingCandidate()
+        public
+        view
+        returns (string memory, address, string memory, uint256)
+    {
+        require(candidateList.length > 0, "No candidates available!");
+
+        uint256 highestVotes = 0;
+        address winnerAddress = address(0);
+        string memory winnerName;
+        string memory winnerParty;
+
+        for (uint256 i = 0; i < candidateList.length; i++) {
+            if (candidateList[i].voteCount > highestVotes) {
+                highestVotes = candidateList[i].voteCount;
+                winnerAddress = candidateList[i].candidateAddress;
+                winnerName = candidateList[i].name;
+                winnerParty = candidateList[i].party;
+            }
+        }
+
+        return (winnerName, winnerAddress, winnerParty, highestVotes);
     }
 
     function getWinner() internal view returns (address) {
