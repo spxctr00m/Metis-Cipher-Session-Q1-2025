@@ -6,7 +6,9 @@ contract VotingSystem {
     mapping(address => bool) public admins;
     uint public adminCount;
     uint candidateDeposit = 0.01 ether; //Every candidate is required to deposit a minimum of 0.01eth to be qualified
-    bool public electionActive;
+
+    bool public isElectionActive = false;
+    bool public isRegistrationOpen = true;
 
     // Struct for candidate
     struct Candidate {
@@ -34,6 +36,8 @@ contract VotingSystem {
     }
     mapping(address => Voter) public voters;
 
+    address public electionWinner;
+
     event AdminAdded(address indexed newAdmin);
     event CandidateRegistered(address indexed candidate, string candidateName);
     event VoterRegistered(address indexed voter, string name);
@@ -45,6 +49,12 @@ contract VotingSystem {
     );
     event ElectionStarted();
     event ElectionStopped();
+    event RegistrationStatusChanged(bool status);
+    event WinnerDeclared(
+        address indexed winner,
+        string name,
+        uint256 voteCount
+    );
     event FundsWithdrawn(address indexed owner, uint amount);
 
     constructor() {
@@ -75,12 +85,22 @@ contract VotingSystem {
         emit AdminAdded(_admin);
     }
 
+    function toggleRegistration(bool _status) public onlyAdmin {
+        require(
+            !isElectionActive,
+            "Cannot change registration status during election"
+        );
+        isRegistrationOpen = _status;
+        emit RegistrationStatusChanged(_status);
+    }
+
     function registerAsVoter(
         string memory _name,
         uint8 _age,
         uint256 _nin,
         string memory _nationality
     ) public {
+        require(isRegistrationOpen, "Voter registration is closed!");
         require(!voters[msg.sender].isRegistered, "Already registered!");
         require(_age >= 18, "You must be at least 18 years old to register!");
         require(
@@ -99,7 +119,6 @@ contract VotingSystem {
             true,
             false
         );
-
         emit VoterRegistered(msg.sender, _name);
     }
 
@@ -110,6 +129,7 @@ contract VotingSystem {
         string memory _manifesto,
         uint256 _nin
     ) public payable {
+        require(isRegistrationOpen, "Candidate registration is closed!");
         require(
             msg.value == candidateDeposit,
             "Must send exactly 0.01 Eth to qualify!"
@@ -162,7 +182,16 @@ contract VotingSystem {
         }
     }
 
+    function startElection() public onlyAdmin {
+        require(!isElectionActive, "Election is already active!");
+        require(candidateList.length > 0, "No candidates registered!");
+        isElectionActive = true;
+        isRegistrationOpen = false; // Close registrations
+        emit ElectionStarted();
+    }
+
     function vote(address _candidate) public {
+        require(isElectionActive, "Election is not active!");
         require(
             voters[msg.sender].isRegistered,
             "You must be registered to vote!"
@@ -183,4 +212,48 @@ contract VotingSystem {
             }
         }
     }
+
+    function getWinner() internal view returns (address) {
+        require(!isElectionActive, "Election must be stopped first!");
+        require(candidateList.length > 0, "No candidates available!");
+
+        uint256 highestVotes = 0;
+        address winnerAddress = address(0);
+
+        for (uint256 i = 0; i < candidateList.length; i++) {
+            if (candidateList[i].voteCount > highestVotes) {
+                highestVotes = candidateList[i].voteCount;
+                winnerAddress = candidateList[i].candidateAddress;
+            }
+        }
+
+        return winnerAddress;
+    }
+
+    function stopElection() public onlyAdmin {
+        require(isElectionActive, "Election is not active!");
+        isElectionActive = false;
+
+        // Determine winner
+        address winnerAddress = getWinner();
+        if (winnerAddress != address(0)) {
+            electionWinner = winnerAddress;
+            Candidate memory winner = candidates[winnerAddress];
+            emit WinnerDeclared(winnerAddress, winner.name, winner.voteCount);
+        }
+
+        emit ElectionStopped();
+    }
+
+    function withdrawFunds() public onlyOwner {
+        uint256 contractBalance = address(this).balance;
+        require(contractBalance > 0, "No funds to withdraw!");
+
+        (bool success, ) = payable(i_owner).call{value: contractBalance}("");
+        require(success, "Transfer failed!");
+
+        emit FundsWithdrawn(i_owner, contractBalance);
+    }
+
+    receive() external payable {} // Allows contract to receive Ether
 }
