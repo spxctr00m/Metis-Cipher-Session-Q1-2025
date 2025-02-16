@@ -1,6 +1,6 @@
 ## Verified contract address: 0x911017EBe1E5cA1Edb7D9c61d8f1727289c1275b
 
-![image](https://github.com/user-attachments/assets/d42a5dcd-196f-409f-8dc2-830a8abcb780)
+![image](https://github.com/user-attachments/assets/b81eebda-0b2f-4e05-a9b5-68709f7e5859)
 
 ### Click [here](https://sepolia-explorer.metisdevops.link/address/0x911017EBe1E5cA1Edb7D9c61d8f1727289c1275b#code) to view the deployed contract on Metis Sepolia block explorer
 
