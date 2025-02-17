@@ -112,3 +112,36 @@ This contract also requires exactly 5 admin addresses to be specified during dep
 - **Admin Control**: Only admins can manage voters, contestants, and election state.
 - **Voting Restrictions**: Each voter can only vote once, preventing double voting.
 - **Age and Nationality Validation**: Only eligible voters and contestants based on age and nationality can be registered.
+
+---
+
+# Difference Between Overflow and Underflow in Solidity
+
+In Solidity, **overflow** and **underflow** are types of errors that occur during arithmetic operations when the result exceeds the maximum or minimum limit of a data type.
+
+### Overflow
+Overflow happens when a value exceeds the maximum limit of a data type. For example, if an `uint8` (which can hold values from 0 to 255) exceeds 255, it "overflows" and wraps around to 0. This can lead to unexpected behavior or vulnerabilities in smart contracts.
+
+**Example of Overflow:**
+```solidity
+uint8 a = 255;
+a += 1;  // a overflows and becomes 0
+```
+
+### Underflow
+Underflow occurs when a value goes below the minimum limit of a data type. For example, subtracting 1 from 0 in an `uint8` would cause it to "underflow" and wrap around to 255.
+
+**Example of Underflow:**
+```solidity
+uint8 b = 0;
+b -= 1;  // b underflows and becomes 255
+```
+
+### Mitigating Overflow and Underflow
+In Solidity version 0.8.0 and later, overflow and underflow are automatically checked, and an error is thrown if the condition is met. However, in earlier versions, developers had to use libraries like `SafeMath` to prevent these errors.
+
+```solidity
+// Solidity 0.8.0 and later prevents overflow and underflow by default.
+uint8 x = 255;
+x += 1;  // This will revert the transaction due to overflow
+```
