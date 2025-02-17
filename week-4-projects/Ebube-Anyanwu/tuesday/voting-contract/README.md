@@ -1,5 +1,5 @@
 # VotingContract by Ebube Anyanwu
-### Deployed Contract Address - 0xC3Db9B072D2595F695BF063cc1BFa9d31266531c
+### Deployed Contract Address - 0xC3Db9B072D2595F695BF063cc1BFa9d31266531c [Link](https://sepolia-explorer.metisdevops.link/address/0xC3Db9B072D2595F695BF063cc1BFa9d31266531c?tab=contract_code)
 
 ## Overview
 
@@ -99,6 +99,11 @@ This contract also requires exactly 5 admin addresses to be specified during dep
   - `_contestant`: The address of the contestant.
   
 - **Returns**: The total number of votes cast for a specific contestant.
+
+---
+
+### 7. `getTotalVotes` (Public)
+- **Returns**: The total number of votes cast in the election.
 
 ---
 
