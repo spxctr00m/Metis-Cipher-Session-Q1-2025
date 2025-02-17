@@ -1,7 +1,7 @@
 # VotingContract by Ebube Anyanwu
 ### Deployed Contract Address - 0xC3Db9B072D2595F695BF063cc1BFa9d31266531c
 
-## Overview
+## Ovt erview
 
 `VotingContract` is a smart contract that allows for decentralized voting in elections. The contract manages voters, contestants, and election processes including registration, voting, and tallying votes. It ensures only eligible voters can participate and ensures that each voter can vote only once during the election period.
 
