@@ -102,11 +102,6 @@ This contract also requires exactly 5 admin addresses to be specified during dep
 
 ---
 
-### 7. `getTotalVotes` (Public)
-- **Returns**: The total number of votes cast in the election.
-
----
-
 ## Security Considerations
 
 - **Admin Control**: Only admins can manage voters, contestants, and election state.
