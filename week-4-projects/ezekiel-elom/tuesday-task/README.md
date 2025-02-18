@@ -48,6 +48,7 @@ contract OverflowExample {
 Underflow occurs when an arithmetic operation results in a value smaller than what the data type allows.  
 
 
+
 **Example:**  
 
 ```solidity
@@ -62,6 +63,7 @@ contract UnderflowExample {
     }
 }
 ```
+
 
 **From the above, we also see:**  
 
