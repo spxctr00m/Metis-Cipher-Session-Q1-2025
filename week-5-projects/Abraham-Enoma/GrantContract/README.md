@@ -1,5 +1,11 @@
 # GrantContract
 
+## Deployment logs for the contract 
+![image](https://github.com/user-attachments/assets/6b7b2709-9123-4d67-bfbd-053689dcb44e)
+
+## Deployed and verified contract on explorer
+![image](https://github.com/user-attachments/assets/ce02f24e-2a86-4dee-9780-30bfc1f8df8e)
+
 ## **Overview**
 
 `GrantContract.sol` is a Solidity smart contract that allows an owner to create time-locked grants for beneficiaries. The contract ensures that beneficiaries can only withdraw their funds after a specified release time, while also allowing the owner to revert grants before the funds are unlocked.
