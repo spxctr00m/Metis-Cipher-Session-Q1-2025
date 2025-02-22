@@ -2,10 +2,15 @@
 
 ## Contract Address
 
-This is the verified grant contract address [link](h).
+This is the verified grant contract address [link](https://sepolia-explorer.metisdevops.link/address/0x60b8Eaa6da25Cd433009815d0E4E5a33122621dD#code).
 
 ## Deployment Steps
 
+Run the following command to deploy and verify the contract using `hardhat ignition`:
+
+```
+npx hardhat ignition deploy ./ignition/modules/GrantContract.js --network metisSepolia --verify
+```
 
 ## Overview of Grant Contract
 
