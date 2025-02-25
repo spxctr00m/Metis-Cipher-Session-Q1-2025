@@ -1,6 +1,6 @@
 # Week 5: Test - Building an ERC-20 Token Contract and a Grant Smart Contract
 
-Welcome to Week 5 of our training program! This week, you will implement an ERC-20 token smart contract and a grant management smart contract. You will also deploy the contracts and document your work.
+Welcome to Week 5 of our training program! This week, you will implement  a grant management smart contract. You will also deploy the contract and document your work.
 
 ---
 
@@ -59,11 +59,11 @@ Welcome to Week 5 of our training program! This week, you will implement an ERC-
 4. **Commit Your Changes**:
    ```bash
    git add .
-   git commit -m "Add Week 5 ERC-20 token and grant contract project for <your_name>"
+   git commit -m "Add Week 5 grant contract project for <your_name>"
    ```
    Example:
    ```bash
-   git commit -m "Add Week 5 ERC-20 token and grant contract project for John Doe"
+   git commit -m "Add Week 5 grant contract project for John Doe"
    ```
 
 5. **Push Your Changes**:
@@ -83,7 +83,6 @@ Welcome to Week 5 of our training program! This week, you will implement an ERC-
 ---
 
 ## Notes
-- Ensure your ERC-20 contract follows the standard correctly.
 - Ensure your grant contract correctly implements time-based constraints.
 - Make sure your code is clean and well-commented.
 - If you encounter any issues, reach out to your facilitator for guidance.
