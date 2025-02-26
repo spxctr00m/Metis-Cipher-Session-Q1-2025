@@ -1,50 +1,63 @@
-# React + TypeScript + Vite
+# Area Calculator Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple web application that calculates the area of different shapes, including triangles, rectangles, and squares. It integrates with a smart contract deployed on Metis blockchain to perform calculations on the blockchain.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ensure you have the following installed on your system:
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- MetaMask browser extension (for blockchain interactions)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+1. **Navigate into the project directory in the terminal**:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+cd week-6-projects/frontend
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. **Install dependencies:**:
+   Using npm:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
 ```
+npm install
+```
+
+Or using yarn:
+
+```
+yarn install
+```
+
+## Running the App Locally
+
+1. **Start the development server**:
+
+```
+npm run dev
+```
+
+Or using yarn:
+
+```
+yarn dev
+```
+
+2. **Open the application**:
+   Once the server is running, open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+(The port may vary depending on your setup.)
+
+## Connecting to MetaMask
+
+- Ensure MetaMask is installed in your browser.
+
+- Click the Connect Wallet button in the app.
+
+- Approve the connection in MetaMask.
