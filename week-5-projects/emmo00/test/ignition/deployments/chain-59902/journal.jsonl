@@ -1,0 +1,3 @@
+
+{"chainId":59902,"type":"DEPLOYMENT_INITIALIZE"}
+{"artifactId":"CipherTokenContractDeployment#Cipher","constructorArgs":[null],"contractName":"Cipher","dependencies":[],"from":"0x96ae31c307bf441431eae7906da7714e058c0641","futureId":"CipherTokenContractDeployment#Cipher","futureType":"NAMED_ARTIFACT_CONTRACT_DEPLOYMENT","libraries":{},"strategy":"basic","strategyConfig":{},"type":"DEPLOYMENT_EXECUTION_STATE_INITIALIZE","value":{"_kind":"bigint","value":"0"}}
