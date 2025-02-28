@@ -41,6 +41,16 @@ npm run dev
 
 Or using yarn:
 
+Good morning big man. Hope you are good?
+I am really sorry about any inconvinience this would cause. I just remembered that I won't be available in March as I said earlier. I already made commitments that I didn't add to my calendar since it was a Saturday.
+
+Abeg no vex for me. I really wanted to do this for you.
+
+I am happy to recommend someone else. I know a couple of people from Web3bridge. 
+
+Aside from this, please still share when it's time, I will share on my newsletter and with my community
+
+No vex abeg
 ```
 yarn dev
 ```
