@@ -1,0 +1,69 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "length",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "breadth",
+                "type": "uint256"
+            }
+        ],
+        "name": "areaOfRectangle",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "_areaOfRectangle",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "side",
+                "type": "uint256"
+            }
+        ],
+        "name": "areaOfSquare",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "_areaOfSquare",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "breadth",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "height",
+                "type": "uint256"
+            }
+        ],
+        "name": "areaOfTriangle",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "_areaOfTriangle",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+    }
+]
