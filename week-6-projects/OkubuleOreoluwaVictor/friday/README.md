@@ -1,4 +1,5 @@
 DEPLOYED CONTRACT ADDRESS:0x1DBD531D295a4184e6D41e6da94C0C24D62561FC
+DEPLOYED FRONTEND ADDRESS: https://vite-react-gt6l9dwz1-victorkreeds-projects.vercel.app
 
 
 # Blockchain Voting System
