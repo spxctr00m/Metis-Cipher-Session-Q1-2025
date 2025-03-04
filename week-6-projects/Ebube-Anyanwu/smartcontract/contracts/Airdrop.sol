@@ -21,11 +21,12 @@ contract Airdrop is Ownable {
     function claim(bytes32[] calldata merkleProof) external {
         require(!hasClaimed[msg.sender], "You have already claimed the airdrop");
         uint amount = claimAmount;
-        bytes32 node = keccak256(abi.encodePacked(msg.sender, amount));
-        require(MerkleProof.verify(merkleProof, merkleRoot, node), "Airdrop: Invalid proof");
+
+        bytes32 leaf = keccak256(abi.encodePacked(msg.sender));
+        require(MerkleProof.verify(merkleProof, merkleRoot, leaf), "Airdrop: Invalid proof");
 
         hasClaimed[msg.sender] = true;
-        require(token.transfer(msg.sender, amount), "Transfer failed");
+        require(token.transfer(msg.sender, amount), "Airdrop: Transfer failed");
         emit AirdropClaimed(msg.sender, amount);
     }
 

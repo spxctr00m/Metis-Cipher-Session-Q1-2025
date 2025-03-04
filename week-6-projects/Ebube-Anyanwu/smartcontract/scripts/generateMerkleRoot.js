@@ -10,12 +10,26 @@ const whitelist = [
 ];
 
 const claimAmount = 1000;
-const createLeaf = (address, amount) => {
-    return keccak256(Buffer.concat([Buffer.from(address.slice(2), 'hex'), Buffer.from(amount.toString())]));
-}
 
-const leaves = whitelist.map(address => createLeaf(address, claimAmount));
+// Function to create leaf nodes (hash of address)
+const createLeaf = (address) => keccak256(Buffer.from(address.slice(2), 'hex'));
+
+// Generate Merkle Tree
+const leaves = whitelist.map(createLeaf);
+
 const tree = new MerkleTree(leaves, keccak256, { sortPairs: true });
 const merkleRoot = tree.getRoot().toString('hex');
+
+console.log("Merkle Root:", merkleRoot);
+console.log("\nMerkle Proofs for each address:\n");
+
+// Print Merkle Proofs for each address
+whitelist.forEach(address => {
+    const leaf = createLeaf(address);
+    const proof = tree.getProof(leaf).map(p => p.data.toString('hex'));
+    console.log(`Address: ${address}`);
+    console.log(`Merkle Proof: ${JSON.stringify(proof)}`);
+    console.log("-----------------------------------");
+});
 
 module.exports = { merkleRoot };
