@@ -6,9 +6,9 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
-contract Airdrop is Ownable {
+contract ChiefAirdrop is Ownable {
     IERC20 public token;
-    bytes32 public merkleRoot;
+    bytes32 private merkleRoot;
     uint public claimAmount;
     mapping (address => bool) public hasClaimed;
     event AirdropClaimed(address indexed account, uint amount);
@@ -19,16 +19,14 @@ contract Airdrop is Ownable {
         claimAmount = _claimAmount;
     }
 
-    function claim(bytes32[] calldata merkleProof) external {
+    function claim(bytes32[] memory merkleProof, address _addr, uint _amount) external {
         require(!hasClaimed[msg.sender], "You have already claimed the airdrop");
-        uint amount = claimAmount;
-
-        bytes32 leaf = keccak256(abi.encodePacked(msg.sender));
-        require(MerkleProof.verify(merkleProof, merkleRoot, leaf), "Airdrop: Invalid proof");
+        bytes32 leaf = keccak256(bytes.concat(keccak256(abi.encode(_addr, _amount))));
+        require(MerkleProof.verify(merkleProof, merkleRoot, leaf), "Invalid proof");
 
         hasClaimed[msg.sender] = true;
-        require(token.transfer(msg.sender, amount), "Airdrop: Transfer failed");
-        emit AirdropClaimed(msg.sender, amount);
+        require(token.transfer(msg.sender, _amount), "Airdrop: Transfer failed");
+        emit AirdropClaimed(msg.sender, _amount);
     }
 
     function updateMerkleRoot(bytes32 _merkleRoot) external onlyOwner {
