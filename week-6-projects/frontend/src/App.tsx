@@ -56,6 +56,7 @@ function App() {
     try {
       if (!contract) {
         console.error("Contract is not initialized yet. Please connect your wallet first.");
+        alert("Contract is not initialized yet. Please connect your wallet first.");
         return;
       }
 
