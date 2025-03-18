@@ -44,7 +44,6 @@ const AirdropClaim = () => {
         toast.error("Wallet connection failed!");
       }
     } else {
-      alert("Please install MetaMask!");
       toast.warn("MetaMask is required!");
     }
   };
