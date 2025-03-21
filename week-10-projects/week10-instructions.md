@@ -18,7 +18,7 @@ Here is the table of projects and their assigned teams:
 | **Decentralized Freelancer Marketplace** | Taye Oladipo, Mabel Samuel | A blockchain-powered freelance platform where clients and freelancers interact through smart contract-based escrow payments. |
 | **NFT-Based Certification Platform** | Amarachi Macaulay, Victor Oreoluwa | A platform that issues tamper-proof, verifiable digital certificates as NFTs on the blockchain. |
 | **Blockchain-Based Land Registry** | Obade Akivie, Emmanuel Nwafor | A secure, transparent, and immutable system for registering and verifying land ownership records using blockchain technology. |
-| **Crowdfunding Platform on Blockchain** | Solomon David, Ezekiel Elom | A decentralized crowdfunding platform that ensures transparency and fund security through smart contract-based contributions. |
+| **Crowdfunding Platform on Blockchain** | SolomonDavid, Ezekiel Elom | A decentralized crowdfunding platform that ensures transparency and fund security through smart contract-based contributions. |
 | **Supply Chain Transparency Platform** | Favour Evans, Jimmy | A blockchain-powered system to track and verify the authenticity of products from manufacturers to end consumers. |
 
 
