@@ -1,0 +1,7 @@
+console.log(contract)
+console.log(area.toString());  // Should return "25"
+const area = await contract.triangle(10, 5);
+const contract = await ethers.getContractAt("SolomonAreaCalculator", "0x539780a8A443850BBC13f7064a92B984Baa29B4c");
+const cont = await ethers.getContractAt("SolomonAreaCalculator", "0x539780a8A443850BBC13f7064a92B984Baa29B4c");
+const contract = await ethers.getContractAt("SolomonAreaCalculator", "0x539780a8A443850BBC13f7064a92B984Baa29B4c");
+const contract = await ethers.getContract("SolomonAreaCalculator", "0x539780a8A443850BBC13f7064a92B984Baa29B4c");

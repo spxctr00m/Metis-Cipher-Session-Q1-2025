@@ -1,0 +1,64 @@
+{
+    "format": "standard-v1",
+    "leafEncoding": [
+        "address",
+        "uint256"
+    ],
+    "tree": [
+        "0x19eeebc4f15aad02944d0cb3df091fd602257a3904d689b21be0c7699e9f2d71",
+        "0x5721380914d17f3bccd33bb927327033bc6d920a2f52a0bb0bcede3d675ea9bd",
+        "0x7c1af910272468d5dbb6901079a44b8c9fe039ee701b799969fa6198a1e9ec87",
+        "0x58915db46454424bdfc6062228a4eef38141aae882b8da8fc283d6243cb9480b",
+        "0x36d317fc26df844bcd7ef2bf7712795651c1cb2d2ebab5ec6a7f49420389c17b",
+        "0xc7830e9fc18ead610a9296c2f7347ef994ae1921d6c89bca9c778e68b58b144d",
+        "0xc25808a7942d79021f8599a8099491b63dd2efce8be6bfd1d00985bd105a962f",
+        "0x77a243c8815668a055fd32295579aefc6201f8436017710a7f3c72b9e4d9034b",
+        "0x44c7f53cb5e405fa9fc15e8201f2f890bdee481582f72646f616537ac2f67ef5",
+        "0x23f11ceb9ebde4267012474c34a27760e00b6432bfa4fbf8ab6e92c028b538f3",
+        "0x221289aa7fe4d18a7a6ca3026bee15ab079cbca7b315e595ff1b51a5398ada8e"
+    ],
+    "values": [
+        {
+            "value": [
+                "0xF2aE212BfC755508a088bfADc985Db391bBFDec8",
+                1000
+            ],
+            "treeIndex": 7
+        },
+        {
+            "value": [
+                "0xfb1573907b4c47A1e367C887Eb7bbB20069963fb",
+                1000
+            ],
+            "treeIndex": 6
+        },
+        {
+            "value": [
+                "0x50e20E505b173e94A4337F324434eF48AAF2bC7F",
+                1000
+            ],
+            "treeIndex": 8
+        },
+        {
+            "value": [
+                "0x022792c5bFBfA056b80D38c6B672d6e2918e8673",
+                1000
+            ],
+            "treeIndex": 5
+        },
+        {
+            "value": [
+                "0x1e7d0d69e047D4Df5996D5382E67485161b33855",
+                1000
+            ],
+            "treeIndex": 10
+        },
+        {
+            "value": [
+                "0x6e5294609A847687e06008d639a8103dcAebFbed",
+                1000
+            ],
+            "treeIndex": 9
+        }
+    ]
+}
